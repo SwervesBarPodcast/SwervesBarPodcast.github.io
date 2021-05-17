@@ -1,3 +1,0 @@
-C:\Users\austi\OneDrive\Desktop\SwervesBar\SwervesBarPodcast.github.io\release\SwervesBar.Shared.dll
-C:\Users\austi\OneDrive\Desktop\SwervesBar\SwervesBarPodcast.github.io\release\SwervesBar.Shared.deps.json
-C:\Users\austi\OneDrive\Desktop\SwervesBar\SwervesBarPodcast.github.io\release\SwervesBar.Shared.pdb
