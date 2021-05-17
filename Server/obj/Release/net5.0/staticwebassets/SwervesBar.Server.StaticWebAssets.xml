@@ -1,5 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\austi\OneDrive\Desktop\SwervesBar\SwervesBarPodcast.github.io\Client\bin\Release\net5.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="C:\Users\austi\OneDrive\Desktop\SwervesBar\SwervesBarPodcast.github.io\Client\obj\Release\net5.0\scopedcss\bundle\" />
-  <ContentRoot BasePath="/" Path="C:\Users\austi\OneDrive\Desktop\SwervesBar\SwervesBarPodcast.github.io\Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\austi\OneDrive\Desktop\Swerves_Bar\SwervesBarPodcast.github.io\Client\bin\Release\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\austi\OneDrive\Desktop\Swerves_Bar\SwervesBarPodcast.github.io\Client\obj\Release\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="C:\Users\austi\OneDrive\Desktop\Swerves_Bar\SwervesBarPodcast.github.io\Client\wwwroot\" />
 </StaticWebAssets>

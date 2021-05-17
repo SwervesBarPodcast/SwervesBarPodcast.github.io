@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d18GGLIZ64OfUx3Uyfgvkx7K0NwtN+n9YLFevq6LX8vB+fmKRyEpRKNOcPg+we9fIbydTXUYa8Bexe+BiJDhUQ==",
+  "dgSpecHash": "ra44pINa7+BKMIJaNvX8CtcWP18DXMfSug9Kl/AD4Nb5SWyOwGBzfGE9BbrOW+lMhFiFQU4XgivSk+9mE8J8Vw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\austi\\OneDrive\\Desktop\\SwervesBar\\SwervesBarPodcast.github.io\\Client\\SwervesBar.Client.csproj",
+  "projectFilePath": "C:\\Users\\austi\\OneDrive\\Desktop\\Swerves_Bar\\SwervesBarPodcast.github.io\\Client\\SwervesBar.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\austi\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.5\\microsoft.aspnetcore.authorization.5.0.5.nupkg.sha512",
     "C:\\Users\\austi\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.5\\microsoft.aspnetcore.components.5.0.5.nupkg.sha512",

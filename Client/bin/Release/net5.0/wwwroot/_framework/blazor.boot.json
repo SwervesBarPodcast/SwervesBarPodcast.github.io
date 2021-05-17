@@ -196,12 +196,12 @@
       "netstandard.dll": "sha256-stWPH7tpmfc4JFroiKGKWcPfLQ+ALD6yQUXA9NiV0fQ=",
       "System.Private.CoreLib.dll": "sha256-PbMTdb+kswRpFmuD8S4hY70nkZ9LeYJg7y3wm7hj0CQ=",
       "SwervesBar.Shared.dll": "sha256-Wkx9sXy+fNpgQ9FPyCTUGBpsjWglSEsdTv0jR6phCV0=",
-      "SwervesBar.Client.dll": "sha256-IANEPNf6a9hrebf12Wa72Ip\/PMhn8CtSSN42AsfrtpE="
+      "SwervesBar.Client.dll": "sha256-8JE6DQuEjGKMQ7IkjcLir0ushTgzy3naUNA6eYbfNb4="
     },
     "lazyAssembly": null,
     "pdb": {
       "SwervesBar.Shared.pdb": "sha256-ggfqk0pW8LTmS9PVrfqYffKCK07bWPROghfnizjQm78=",
-      "SwervesBar.Client.pdb": "sha256-gE+JWS0OTlTEaR8BXwsRo3JoKvWCGn3Dyk1Ji46ixS8="
+      "SwervesBar.Client.pdb": "sha256-ZiFbtW0EeBdrbYRS1DeO\/z4jkSBC71Z+9Fj46+vWu3Q="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-SQvzbzBfueaAxSKIKE1khBH02NH2MJJaWDBav\/S5MSs=",

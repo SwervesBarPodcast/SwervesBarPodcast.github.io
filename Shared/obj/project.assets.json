@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\austi\\OneDrive\\Desktop\\SwervesBar\\SwervesBarPodcast.github.io\\Shared\\SwervesBar.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\austi\\OneDrive\\Desktop\\Swerves_Bar\\SwervesBarPodcast.github.io\\Shared\\SwervesBar.Shared.csproj",
       "projectName": "SwervesBar.Shared",
-      "projectPath": "C:\\Users\\austi\\OneDrive\\Desktop\\SwervesBar\\SwervesBarPodcast.github.io\\Shared\\SwervesBar.Shared.csproj",
+      "projectPath": "C:\\Users\\austi\\OneDrive\\Desktop\\Swerves_Bar\\SwervesBarPodcast.github.io\\Shared\\SwervesBar.Shared.csproj",
       "packagesPath": "C:\\Users\\austi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\austi\\OneDrive\\Desktop\\SwervesBar\\SwervesBarPodcast.github.io\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\austi\\OneDrive\\Desktop\\Swerves_Bar\\SwervesBarPodcast.github.io\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

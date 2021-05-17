@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\austi\\OneDrive\\Desktop\\SwervesBar\\SwervesBarPodcast.github.io\\Client\\SwervesBar.Client.csproj": {}
+    "C:\\Users\\austi\\OneDrive\\Desktop\\Swerves_Bar\\SwervesBarPodcast.github.io\\Client\\SwervesBar.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\austi\\OneDrive\\Desktop\\SwervesBar\\SwervesBarPodcast.github.io\\Client\\SwervesBar.Client.csproj": {
+    "C:\\Users\\austi\\OneDrive\\Desktop\\Swerves_Bar\\SwervesBarPodcast.github.io\\Client\\SwervesBar.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\austi\\OneDrive\\Desktop\\SwervesBar\\SwervesBarPodcast.github.io\\Client\\SwervesBar.Client.csproj",
+        "projectUniqueName": "C:\\Users\\austi\\OneDrive\\Desktop\\Swerves_Bar\\SwervesBarPodcast.github.io\\Client\\SwervesBar.Client.csproj",
         "projectName": "SwervesBar.Client",
-        "projectPath": "C:\\Users\\austi\\OneDrive\\Desktop\\SwervesBar\\SwervesBarPodcast.github.io\\Client\\SwervesBar.Client.csproj",
+        "projectPath": "C:\\Users\\austi\\OneDrive\\Desktop\\Swerves_Bar\\SwervesBarPodcast.github.io\\Client\\SwervesBar.Client.csproj",
         "packagesPath": "C:\\Users\\austi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\austi\\OneDrive\\Desktop\\SwervesBar\\SwervesBarPodcast.github.io\\Client\\obj\\",
+        "outputPath": "C:\\Users\\austi\\OneDrive\\Desktop\\Swerves_Bar\\SwervesBarPodcast.github.io\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\austi\\OneDrive\\Desktop\\SwervesBar\\SwervesBarPodcast.github.io\\Shared\\SwervesBar.Shared.csproj": {
-                "projectPath": "C:\\Users\\austi\\OneDrive\\Desktop\\SwervesBar\\SwervesBarPodcast.github.io\\Shared\\SwervesBar.Shared.csproj"
+              "C:\\Users\\austi\\OneDrive\\Desktop\\Swerves_Bar\\SwervesBarPodcast.github.io\\Shared\\SwervesBar.Shared.csproj": {
+                "projectPath": "C:\\Users\\austi\\OneDrive\\Desktop\\Swerves_Bar\\SwervesBarPodcast.github.io\\Shared\\SwervesBar.Shared.csproj"
               }
             }
           }
@@ -94,14 +94,14 @@
         }
       }
     },
-    "C:\\Users\\austi\\OneDrive\\Desktop\\SwervesBar\\SwervesBarPodcast.github.io\\Shared\\SwervesBar.Shared.csproj": {
+    "C:\\Users\\austi\\OneDrive\\Desktop\\Swerves_Bar\\SwervesBarPodcast.github.io\\Shared\\SwervesBar.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\austi\\OneDrive\\Desktop\\SwervesBar\\SwervesBarPodcast.github.io\\Shared\\SwervesBar.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\austi\\OneDrive\\Desktop\\Swerves_Bar\\SwervesBarPodcast.github.io\\Shared\\SwervesBar.Shared.csproj",
         "projectName": "SwervesBar.Shared",
-        "projectPath": "C:\\Users\\austi\\OneDrive\\Desktop\\SwervesBar\\SwervesBarPodcast.github.io\\Shared\\SwervesBar.Shared.csproj",
+        "projectPath": "C:\\Users\\austi\\OneDrive\\Desktop\\Swerves_Bar\\SwervesBarPodcast.github.io\\Shared\\SwervesBar.Shared.csproj",
         "packagesPath": "C:\\Users\\austi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\austi\\OneDrive\\Desktop\\SwervesBar\\SwervesBarPodcast.github.io\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\austi\\OneDrive\\Desktop\\Swerves_Bar\\SwervesBarPodcast.github.io\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
