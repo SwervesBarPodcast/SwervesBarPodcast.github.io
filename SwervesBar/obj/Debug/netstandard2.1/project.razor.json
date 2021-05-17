@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\SwervesBarPodcast\\SwervesBar\\SwervesBar\\SwervesBar.csproj",
+  "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\Podcast_Site\\SwervesBarPodcast.github.io\\SwervesBar\\SwervesBar.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "3.0",
@@ -7,333 +7,6 @@
   },
   "ProjectWorkspaceState": {
     "TagHelpers": [
-      {
-        "HashCode": -2103128969,
-        "Kind": "Components.Component",
-        "Name": "SwervesBar.App",
-        "AssemblyName": "SwervesBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SwervesBar.App"
-        }
-      },
-      {
-        "HashCode": -1427088455,
-        "Kind": "Components.Component",
-        "Name": "SwervesBar.App",
-        "AssemblyName": "SwervesBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SwervesBar.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SwervesBar.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 538238501,
-        "Kind": "Components.Component",
-        "Name": "SwervesBar.Pages.LatestDnd",
-        "AssemblyName": "SwervesBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "LatestDnd"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SwervesBar.Pages.LatestDnd"
-        }
-      },
-      {
-        "HashCode": 797912024,
-        "Kind": "Components.Component",
-        "Name": "SwervesBar.Pages.LatestDnd",
-        "AssemblyName": "SwervesBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SwervesBar.Pages.LatestDnd"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SwervesBar.Pages.LatestDnd",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 637159828,
-        "Kind": "Components.Component",
-        "Name": "SwervesBar.Pages.LatestSwervesBar",
-        "AssemblyName": "SwervesBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "LatestSwervesBar"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SwervesBar.Pages.LatestSwervesBar"
-        }
-      },
-      {
-        "HashCode": 1685292111,
-        "Kind": "Components.Component",
-        "Name": "SwervesBar.Pages.LatestSwervesBar",
-        "AssemblyName": "SwervesBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SwervesBar.Pages.LatestSwervesBar"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SwervesBar.Pages.LatestSwervesBar",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1795921421,
-        "Kind": "Components.Component",
-        "Name": "SwervesBar.Pages.SwervesBarArchive",
-        "AssemblyName": "SwervesBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SwervesBarArchive"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SwervesBar.Pages.SwervesBarArchive"
-        }
-      },
-      {
-        "HashCode": 1237487757,
-        "Kind": "Components.Component",
-        "Name": "SwervesBar.Pages.SwervesBarArchive",
-        "AssemblyName": "SwervesBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SwervesBar.Pages.SwervesBarArchive"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SwervesBar.Pages.SwervesBarArchive",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1724876450,
-        "Kind": "Components.Component",
-        "Name": "SwervesBar.Pages.DndArchive",
-        "AssemblyName": "SwervesBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DndArchive"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SwervesBar.Pages.DndArchive"
-        }
-      },
-      {
-        "HashCode": -1127801291,
-        "Kind": "Components.Component",
-        "Name": "SwervesBar.Pages.DndArchive",
-        "AssemblyName": "SwervesBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SwervesBar.Pages.DndArchive"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SwervesBar.Pages.DndArchive",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1929836166,
-        "Kind": "Components.Component",
-        "Name": "SwervesBar.Pages.Index",
-        "AssemblyName": "SwervesBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SwervesBar.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -113514768,
-        "Kind": "Components.Component",
-        "Name": "SwervesBar.Pages.Index",
-        "AssemblyName": "SwervesBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SwervesBar.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SwervesBar.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 548960912,
-        "Kind": "Components.Component",
-        "Name": "SwervesBar.Shared.MainLayout",
-        "AssemblyName": "SwervesBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MainLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SwervesBar.Shared.MainLayout"
-        }
-      },
-      {
-        "HashCode": 1520982001,
-        "Kind": "Components.Component",
-        "Name": "SwervesBar.Shared.MainLayout",
-        "AssemblyName": "SwervesBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SwervesBar.Shared.MainLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SwervesBar.Shared.MainLayout",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 906935403,
-        "Kind": "Components.ChildContent",
-        "Name": "SwervesBar.Shared.MainLayout.Body",
-        "AssemblyName": "SwervesBar",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "SwervesBar.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "HashCode": -1109455776,
-        "Kind": "Components.ChildContent",
-        "Name": "SwervesBar.Shared.MainLayout.Body",
-        "AssemblyName": "SwervesBar",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "SwervesBar.Shared.MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "SwervesBar.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1004954566,
-        "Kind": "Components.Component",
-        "Name": "SwervesBar.Shared.NavMenu",
-        "AssemblyName": "SwervesBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SwervesBar.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -1035542941,
-        "Kind": "Components.Component",
-        "Name": "SwervesBar.Shared.NavMenu",
-        "AssemblyName": "SwervesBar",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SwervesBar.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SwervesBar.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
       {
         "HashCode": -1963242090,
         "Kind": "Components.Component",
@@ -11805,48 +11478,48 @@
   "RootNamespace": "SwervesBar",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\SwervesBarPodcast\\SwervesBar\\SwervesBar\\Shared\\MainLayout.razor",
+      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\Podcast_Site\\SwervesBarPodcast.github.io\\SwervesBar\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\SwervesBarPodcast\\SwervesBar\\SwervesBar\\Pages\\DndArchive.razor",
-      "TargetPath": "Pages\\DndArchive.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\SwervesBarPodcast\\SwervesBar\\SwervesBar\\_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\SwervesBarPodcast\\SwervesBar\\SwervesBar\\Pages\\LatestSwervesBar.razor",
-      "TargetPath": "Pages\\LatestSwervesBar.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\SwervesBarPodcast\\SwervesBar\\SwervesBar\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\SwervesBarPodcast\\SwervesBar\\SwervesBar\\Pages\\LatestDnd.razor",
-      "TargetPath": "Pages\\LatestDnd.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\SwervesBarPodcast\\SwervesBar\\SwervesBar\\Shared\\NavMenu.razor",
+      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\Podcast_Site\\SwervesBarPodcast.github.io\\SwervesBar\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\SwervesBarPodcast\\SwervesBar\\SwervesBar\\App.razor",
+      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\Podcast_Site\\SwervesBarPodcast.github.io\\SwervesBar\\Pages\\LatestDnd.razor",
+      "TargetPath": "Pages\\LatestDnd.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\Podcast_Site\\SwervesBarPodcast.github.io\\SwervesBar\\App.razor",
       "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\SwervesBarPodcast\\SwervesBar\\SwervesBar\\Pages\\SwervesBarArchive.razor",
+      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\Podcast_Site\\SwervesBarPodcast.github.io\\SwervesBar\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\Podcast_Site\\SwervesBarPodcast.github.io\\SwervesBar\\Pages\\SwervesBarArchive.razor",
       "TargetPath": "Pages\\SwervesBarArchive.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\Podcast_Site\\SwervesBarPodcast.github.io\\SwervesBar\\Pages\\DndArchive.razor",
+      "TargetPath": "Pages\\DndArchive.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\Podcast_Site\\SwervesBarPodcast.github.io\\SwervesBar\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\austi\\OneDrive\\Desktop\\Podcast_Site\\SwervesBarPodcast.github.io\\SwervesBar\\Pages\\LatestSwervesBar.razor",
+      "TargetPath": "Pages\\LatestSwervesBar.razor",
       "FileKind": "component"
     }
   ],
