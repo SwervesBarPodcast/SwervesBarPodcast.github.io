@@ -1,0 +1,12 @@
+C:\Users\austi\source\repos\SwervesBar\Shared\bin\Debug\net5.0\SwervesBar.Shared.deps.json
+C:\Users\austi\source\repos\SwervesBar\Shared\bin\Debug\net5.0\SwervesBar.Shared.dll
+C:\Users\austi\source\repos\SwervesBar\Shared\bin\Debug\net5.0\ref\SwervesBar.Shared.dll
+C:\Users\austi\source\repos\SwervesBar\Shared\bin\Debug\net5.0\SwervesBar.Shared.pdb
+C:\Users\austi\source\repos\SwervesBar\Shared\obj\Debug\net5.0\SwervesBar.Shared.csprojAssemblyReference.cache
+C:\Users\austi\source\repos\SwervesBar\Shared\obj\Debug\net5.0\SwervesBar.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\austi\source\repos\SwervesBar\Shared\obj\Debug\net5.0\SwervesBar.Shared.AssemblyInfoInputs.cache
+C:\Users\austi\source\repos\SwervesBar\Shared\obj\Debug\net5.0\SwervesBar.Shared.AssemblyInfo.cs
+C:\Users\austi\source\repos\SwervesBar\Shared\obj\Debug\net5.0\SwervesBar.Shared.csproj.CoreCompileInputs.cache
+C:\Users\austi\source\repos\SwervesBar\Shared\obj\Debug\net5.0\SwervesBar.Shared.dll
+C:\Users\austi\source\repos\SwervesBar\Shared\obj\Debug\net5.0\ref\SwervesBar.Shared.dll
+C:\Users\austi\source\repos\SwervesBar\Shared\obj\Debug\net5.0\SwervesBar.Shared.pdb
