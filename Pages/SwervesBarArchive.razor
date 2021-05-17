@@ -13,8 +13,10 @@ else
             <tr>
                 <th scope="col">Episode</th>
                 <th scope="col">Comic Description</th>
-                <th scope="col">Broadcaster</th>
-                <th scope="col">Link</th>
+                <th scope="col">Youtube</th>
+                <th scope="col">Spotify</th>
+                <th scope="col">Google Podcast</th>
+                <th scope="col">IHeart Radio</th>
             </tr>
         </thead>
         <tbody>
@@ -24,8 +26,10 @@ else
                 <tr>
                     <td>@comic.Episode</td>
                     <td>@comic.Description</td>
-                    <td>@comic.Broadcasters</td>
-                    <td><a href=@comic.Link>Click Here</a></td>
+                    <td><a href=@comic.YouTubeLink>Click Here</a></td>
+                    <td><a href=@comic.SpotifyLink>Click Here</a></td>
+                    <td><a href=@comic.GoogleLink>Click Here</a></td>
+                    <td><a href=@comic.IHeartLink>Click Here</a></td>
                 </tr>
             }
         </tbody>  
@@ -49,7 +53,10 @@ else
     {
         public int Episode { get; set; }
         public string Description { get; set; }
-        public string Broadcasters { get; set; }
-        public string Link { get; set; }
+        public string SpotifyLink { get; set; }
+        public string YouTubeLink { get; set; }
+         public string GoogleLink { get; set; }
+         public string IHeartLink { get; set; }
+
     }
 }
