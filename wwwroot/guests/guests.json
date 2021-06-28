@@ -1,0 +1,15 @@
+[
+    {
+        "guestId":1,
+        "name":"",        
+        "dndId":"",
+        "comicId": "",
+        "summary":"",
+        "socials":
+        {
+            "twitter":"",
+            "fb":"",
+            "twitch":""
+        }
+    }
+]
