@@ -1,7 +1,7 @@
 [
     {
         "episode": 1,
-        "Description": "Welcome to our very first episode of the Transformers Home-brewed DnD Podcast! Listen in as we follow Zephyr a new recruited Decepticon and Eight Wheeler a hired mercenary roll dice and go on their very first adventure!",
+        "Description": "Pilot : Welcome to our very first episode of the Transformers Home-brewed DnD Podcast! Listen in as we follow Zephyr a new recruited Decepticon and Eight Wheeler a hired mercenary roll dice and go on their very first adventure!",
         "youtubelink":"https://youtu.be/j6w305Tb3eM",
         "spotifylink": "https://open.spotify.com/episode/3V6azZLXgdKyA5tJTUbJGj?si=GnHnGElsQj28m3aYlpBwGQ",
         "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3RyYW5zZm9ybWFuZHJvbGxvdXQvZmVlZC54bWw/episode/dHJhbnNmb3JtYW5kcm9sbG91dC5wb2RiZWFuLmNvbS84NzJmN2IyYS1mODUwLTNhOGYtOGY4NC1lM2NjYTU2YTQzNTc?sa=X&ved=0CA0QkfYCahcKEwiom9aRtNTwAhUAAAAAHQAAAAAQAQ",
@@ -9,7 +9,7 @@
     },
     {
         "episode": 2,
-        "Description": "Welcome to the second episode of the Transformers Home-brewed DnD Podcast! We noticed last weeks episode picked up some strange signal from an unknown source stay tune to see if we can discover who is behind these mysteries. Follow Zephyr & Eight Wheeler go on their next mission to the planet Antilla to find another special object!",
+        "Description": "Nothing But Trouble : Welcome to the second episode of the Transformers Home-brewed DnD Podcast! We noticed last weeks episode picked up some strange signal from an unknown source stay tune to see if we can discover who is behind these mysteries. Follow Zephyr & Eight Wheeler go on their next mission to the planet Antilla to find another special object!",
         "youtubelink":"https://youtu.be/8tA1_QWJ4OI",
         "spotifylink": "https://open.spotify.com/episode/6XGwzZH3td9tZdXa4gHcDJ?si=kfTxzJCeQWCvjna5p0Qc2g",
         "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3RyYW5zZm9ybWFuZHJvbGxvdXQvZmVlZC54bWw/episode/dHJhbnNmb3JtYW5kcm9sbG91dC5wb2RiZWFuLmNvbS9iMTZlYjRmNS1mZTYyLTNkNDgtOTI1YS02MDQwZDMzMzhiMDc?sa=X&ved=0CAUQkfYCahcKEwjYs9q94t7wAhUAAAAAHQAAAAAQEg",
@@ -17,7 +17,7 @@
     },
     {
         "episode": 3,
-        "Description": "Welcome to the third episode of the Transformers Home-brewed DnD Podcast! This episode the crew has a new adorable guest, join us to find out more! Follow Zephyr & Eight Wheeler continue their next mission on the planet Antilla to see if they ever find what they are looking for!",
+        "Description": "Dust To Dust : Welcome to the third episode of the Transformers Home-brewed DnD Podcast! This episode the crew has a new adorable guest, join us to find out more! Follow Zephyr & Eight Wheeler continue their next mission on the planet Antilla to see if they ever find what they are looking for!",
         "youtubelink":"https://youtu.be/9isiUSwdue4",
         "spotifylink": "https://open.spotify.com/episode/7AZR0rDYbuXoqwZauRQkeG?si=1oRc94LyTgSvXxrG_faAsw",
         "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3RyYW5zZm9ybWFuZHJvbGxvdXQvZmVlZC54bWw/episode/dHJhbnNmb3JtYW5kcm9sbG91dC5wb2RiZWFuLmNvbS80NTE4MzUxNC00Yzc4LTM3YzMtYmYxNS1iZGI0NDhiZTFkNzg?sa=X&ved=0CAUQkfYCahcKEwi4gvLIjobxAhUAAAAAHQAAAAAQCA",
@@ -25,7 +25,7 @@
     },
     {
         "episode": 4,
-        "Description": "Welcome to the Fourth episode of the Transformers Home-brewed DnD Podcast! On this episode we have our first ever special guest Hexamis! Who plays Spitfire a character both Eight Wheeler & Zephyr stumble upon while getting thrown in prison on a Decepticon D-Class Warship.",
+        "Description": "Escape : Welcome to the Fourth episode of the Transformers Home-brewed DnD Podcast! On this episode we have our first ever special guest Hexamis! Who plays Spitfire a character both Eight Wheeler & Zephyr stumble upon while getting thrown in prison on a Decepticon D-Class Warship.",
         "youtubelink":"https://youtu.be/-Qmrv5gZ77Q",
         "spotifylink":"https://open.spotify.com/episode/2E6mOLOBLMfqGKaUMdc3W9?si=wKKrjxaCS8q7ftXTiyJ3GA&dl_branch=1",
         "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3RyYW5zZm9ybWFuZHJvbGxvdXQvZmVlZC54bWw/episode/dHJhbnNmb3JtYW5kcm9sbG91dC5wb2RiZWFuLmNvbS8xNGEyMDgzMi01OGY0LTNhZTgtYWQ4OS05ODFmZTFiMmEwMDg?sa=X&ved=0CAUQkfYCahcKEwjYwK-hh6nxAhUAAAAAHQAAAAAQGA",
@@ -33,10 +33,18 @@
     } ,
    {
         "episode": 5,
-        "Description": "Welcome to the Fifth episode of the Transformers Home-brewed DnD Podcast! On this episode Hexamis who plays Spitfire continues with us on the adventure! In this episode our hero's ship runs out of fuel and must make a pit stop at a mysterious planet called C.O.R.E. What secrets will they find while visiting.",
+        "Description": "Landing On Unknowns : Welcome to the Fifth episode of the Transformers Home-brewed DnD Podcast! On this episode Hexamis who plays Spitfire continues with us on the adventure! In this episode our hero's ship runs out of fuel and must make a pit stop at a mysterious planet called C.O.R.E. What secrets will they find while visiting.",
         "youtubelink":"https://youtu.be/tSq3Z_gofW8",
         "spotifylink":"https://open.spotify.com/episode/7hMN1MFqTZRXj7ZdAtqCQa?si=YJ2wHVT2S-iIYx6OHtZC5Q&dl_branch=1",
         "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3RyYW5zZm9ybWFuZHJvbGxvdXQvZmVlZC54bWw/episode/dHJhbnNmb3JtYW5kcm9sbG91dC5wb2RiZWFuLmNvbS9mMjg4MGI2NS1kMjhiLTMyMjQtOTljYS00ZDZhYjE0ZjEyZmY?sa=X&ved=0CAUQkfYCahcKEwjQ8ojbrs_xAhUAAAAAHQAAAAAQGQ",
         "Iheartlink":"https://www.iheart.com/podcast/269-transform-roll-out-rise-of-82634567/episode/transform-roll-out-rise-84414360/"
-    }
+    },
+    {
+         "episode": 6,
+         "Description": "Finite Knowledge : Welcome to the sixth episode of the Transformers Home-brewed DnD Podcast! On this episode Hexamis who plays Spitfire continues with us on the adventure! In this episode our heroes continue their journey to rescue our adorable baby Turbofox, mysteries are slowly revealed and some questions are answered. Come join us!",
+         "youtubelink":"https://youtu.be/SwJxlfl0krY",
+         "spotifylink":"https://open.spotify.com/episode/4qt5iRS71CLZzdeeUjFbG3?si=aetW9bmzRIOKd_x93PI83A&dl_branch=1",
+         "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3RyYW5zZm9ybWFuZHJvbGxvdXQvZmVlZC54bWw/episode/dHJhbnNmb3JtYW5kcm9sbG91dC5wb2RiZWFuLmNvbS82MmM1MDNlNC0yNzU4LTNmNjgtYWI3Ni1mN2E5YTlkOWQxYzM?sa=X&ved=0CA0QkfYCahcKEwj41bGO1OvxAhUAAAAAHQAAAAAQAQ",
+         "Iheartlink":"https://www.iheart.com/podcast/269-transform-roll-out-rise-of-82634567/episode/transform-roll-out-rise-84923169/"
+     }
 ]
