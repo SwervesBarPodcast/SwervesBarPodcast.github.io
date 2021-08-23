@@ -70,6 +70,22 @@
         "spotifylink":"https://open.spotify.com/episode/1GpY4NqIj9uoSaZBk3jK41?si=E2bgyOCxSuGs22XtqL0ybw&dl_branch=1",
         "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N3ZXJ2ZXNiYXJwb2RjYXN0L2ZlZWQueG1s/episode/c3dlcnZlc2JhcnBvZGNhc3QucG9kYmVhbi5jb20vNjk4ZDk3NzctM2M4OC0zYzU0LTg2ZjgtYTY1MDVhZmIzNjc1?sa=X&ved=0CAUQkfYCahcKEwi49JLJnq7yAhUAAAAAHQAAAAAQGA",
         "Iheartlink":"https://www.iheart.com/podcast/269-swerves-bar-podcast-82634480/episode/09-transformers-escalation-85675935/"
+    },
+    {
+        "episode": 10,
+        "description":"Sixshot has Come-eth!!!!! Come join 0nyx Prime, C0mputr0n, and Kill0-byte as they continue their journey through the 2005 IDW Transformers saga with Devastation. Our hosts will talk about highlights of the comics and aspects that they enjoyed, you may even learn a few fun facts about the comics run.",
+        "youtubelink":"https://youtu.be/fvHIcrZR-VA",
+        "spotifylink":"https://open.spotify.com/episode/2YifGr6qn1ItAv6bJNS1MG?si=Jr782JlPS_Sl2Vhvkt7FJQ&dl_branch=1",
+        "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N3ZXJ2ZXNiYXJwb2RjYXN0L2ZlZWQueG1s/episode/c3dlcnZlc2JhcnBvZGNhc3QucG9kYmVhbi5jb20vMGIzMjMyZWEtYjc1Yi0zMjA1LTkwODgtMmJiMzJmNjBhOTA3?sa=X&ved=0CAUQkfYCahcKEwiowuPV58fyAhUAAAAAHQAAAAAQLA",
+        "Iheartlink":"https://www.iheart.com/podcast/269-swerves-bar-podcast-82634480/episode/10-transformersdevastation-85911276/"
+    },
+    {
+        "episode": 11,
+        "description":"GRIMLOCK!!! Come join 0nyx Prime, C0mputr0n, and Kill0-byte as they continue their journey through the 2005 IDW Transformers saga with Maximum Dinobots.",
+        "youtubelink":"https://youtu.be/GOVD1DTVr2s",
+        "spotifylink":"https://open.spotify.com/episode/5pt86jA44q2fvfXE2d81da?si=wuKiYOhPRYe1EIvbh1IFqg&dl_branch=1",
+        "googlelink":"",
+        "Iheartlink":""
     }
    
 ]
