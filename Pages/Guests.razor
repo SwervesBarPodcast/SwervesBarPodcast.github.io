@@ -10,24 +10,18 @@ else
 
     @foreach (var guest in guests)
     {
-            <div class="row">
-                <div class="col-md-12">
-                    <h3>@guest.name</h3>
-                </div>
+        <div class="row">
+    <div class="col-md-4">
+        <h3>@guest.name</h3>
+    </div>
 
-    <div class="col-md-12">
+    <div class="col-md-2">
         @if (!string.IsNullOrEmpty(guest.twitter))
                 {
-                    <p>Twitter: @guest.twitter</p>
+                    <a href=@guest.twitter class="btn btn-outline-primary"><em class="fab fa-twitter" data-toggle="tooltip"
+                title="twitter"></em></a>
                 }
-                @if (!string.IsNullOrEmpty(guest.fb))
-                {
-                    <p>Facebook: @guest.fb</p>
-                }
-                @if (!string.IsNullOrEmpty(guest.twitch))
-                {
-                    <p>Twitch: @guest.twitch</p>
-                }
+
             </div>
 
             <div class="col-md-12">
@@ -66,17 +60,17 @@ else
                 {
                     <h5>Comic Episodes</h5>
                     <table class="table table-hover">
-                        <thead>
-                            <tr>
-                                <th scope="col-md-2">Episode</th>
-                                <th scope="col-md-2">Podcast</th>
-                                <th scope="col-md-2">Release Date</th>
-                                <th scope="col-md-2">Youtube</th>
-                            </tr>
-                        </thead>
-                        <tbody>
+            <thead>
+                <tr>
+                    <th scope="col-md-2">Episode</th>
+                    <th scope="col-md-2">Podcast</th>
+                    <th scope="col-md-2">Release Date</th>
+                    <th scope="col-md-2">Youtube</th>
+                </tr>
+            </thead>
+            <tbody>
 
-                            @foreach (var id in guest.comicIds)
+                @foreach (var id in guest.comicIds)
                             {
                                 <td>@comics.First(c => c.episode == id).title</td>
                                 <td>IDW 2005 Comics</td>
