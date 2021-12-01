@@ -1,99 +1,152 @@
 [
     {
         "episode": 1,
-        "description":"Come hang out with 0nyx Prime, C0mputr0n, and Kill0-byte as they begin their journey through the 2005 IDW Transformers saga with Megatron Origin",
-        "youtubelink":"https://youtu.be/TIEvH7Kx6PI",
-        "spotifylink": "https://open.spotify.com/episode/3xIcfqGUCMRxxzZZTs4oDg",
-        "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N3ZXJ2ZXNiYXJwb2RjYXN0L2ZlZWQueG1s/episode/c3dlcnZlc2JhcnBvZGNhc3QucG9kYmVhbi5jb20vOTQxNWY5YWUtNjg5My0zMjdmLWE0NGUtZmFkMGJhNTNmYWRl?sa=X&ved=0CAUQkfYCahcKEwjYu9aj0dHwAhUAAAAAHQAAAAAQCA",
-        "Iheartlink":"https://www.iheart.com/podcast/269-swerves-bar-podcast-82634480/episode/01-transformers-megatron-origin-82659318/"
+        "title": "Transformers: Megatron Origin",
+        "releasedate": "May 10, 2021",
+        "youtubelink": "https://youtu.be/TIEvH7Kx6PI"
     },
     {
         "episode": 2,
-        "description":"Come hang out with 0nyx Prime, C0mputr0n, and Kill0-byte as they continue their journey through the 2005 IDW Transformers saga with Autocracy",
-        "youtubelink":"https://youtu.be/U_4VFDm4R6U",
-        "spotifylink": "https://open.spotify.com/episode/56E8VnKMFEUakrf4GDXM4C?si=ETuZgDSaR7-kl1eeFUbMXw",
-        "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N3ZXJ2ZXNiYXJwb2RjYXN0L2ZlZWQueG1s/episode/c3dlcnZlc2JhcnBvZGNhc3QucG9kYmVhbi5jb20vZGY1NjZmYmEtNzBlNy0zYzVkLWEyYjItMGQwYmE1ZDZjOTQz?sa=X&ved=0CAUQkfYCahcKEwjYu9aj0dHwAhUAAAAAHQAAAAAQCA",
-        "Iheartlink":"https://www.iheart.com/podcast/269-swerves-bar-podcast-82634480/episode/02-transformers-autocracy-82659317/"
+        "title": "Transformers: Autocracy",
+        "releasedate": "May 17, 2021",
+        "youtubelink": "https://youtu.be/U_4VFDm4R6U"
     },
     {
         "episode": 3,
-        "description":"Come hang out with 0nyx Prime, C0mputr0n, and Kill0-byte as they continue their journey through the 2005 IDW Transformers saga with Monstrosity",
-        "youtubelink":"https://youtu.be/YWLAHo8Afgw",
-        "spotifylink": "https://open.spotify.com/episode/62kxdX3WGb7uf0F2ecOO9S?si=9gZ8CzKMR0eM08pkPmV7MQ",
-        "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N3ZXJ2ZXNiYXJwb2RjYXN0L2ZlZWQueG1s/episode/c3dlcnZlc2JhcnBvZGNhc3QucG9kYmVhbi5jb20vYmE3MzM1ODktNzk4MC0zZDVkLTg2ZDEtYzQ2ODFjYTA3M2Yw?sa=X&ved=0CAUQkfYCahcKEwiI1f6drfnwAhUAAAAAHQAAAAAQCQ",
-        "Iheartlink":"https://www.iheart.com/podcast/269-swerves-bar-podcast-82634480/episode/03-transformers-monstrosity-83218436/"
+        "title": "Transformers: Monstrocity",
+        "releasedate": "June 1, 2021",
+        "youtubelink": "https://youtu.be/YWLAHo8Afgw"
     },
     {
         "episode": 4,
-        "description":"Come hang out with 0nyx Prime, C0mputr0n, and Kill0-byte as they continue their journey through the 2005 IDW Transformers saga with Primacy",
-        "youtubelink":"https://youtu.be/FRXIYfCpYFI",
-        "spotifylink":"https://open.spotify.com/episode/4wbkEZsYZQfIza7bW9cS9t?si=NBt32iWSQ7mWKU9HmT4Wcg&dl_branch=1",
-        "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N3ZXJ2ZXNiYXJwb2RjYXN0L2ZlZWQueG1s/episode/c3dlcnZlc2JhcnBvZGNhc3QucG9kYmVhbi5jb20vM2ExMGNjZWQtOTBlZS0zMGFiLWFkM2UtMmFlN2I3MDRhNzVl?sa=X&ved=0CA0QkfYCahcKEwjIhoH3yprxAhUAAAAAHQAAAAAQAQ",
-        "Iheartlink":"https://www.iheart.com/podcast/269-swerves-bar-podcast-82634480/episode/04-transformers-primacy-83708440/"
+        "title": "Transformers: Primacy",
+        "releasedate": "June 14, 2021",
+        "youtubelink": "https://youtu.be/FRXIYfCpYFI"
     },
     {
         "episode": 5,
-        "description":"Come hang out with 0nyx Prime, C0mputr0n, and Kill0-byte as they continue their journey through the 2005 IDW Transformers saga with Rom Vs Transformers",
-        "youtubelink":"https://youtu.be/GzNW17R3g08",
-        "spotifylink":"https://open.spotify.com/episode/1Z1ehqjE644w4PjZjqWSIr?si=ISLATtKyTeyBXYol84ihqQ&dl_branch=1",
-        "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N3ZXJ2ZXNiYXJwb2RjYXN0L2ZlZWQueG1s/episode/c3dlcnZlc2JhcnBvZGNhc3QucG9kYmVhbi5jb20vYzA1NDNjN2ItNzFlYy0zYmVlLWI2ZGEtZGRhMjVlYmEwMzRl?sa=X&ved=0CAUQkfYCahcKEwjAmYmM9L_xAhUAAAAAHQAAAAAQGA",
-        "Iheartlink":"https://www.iheart.com/podcast/269-swerves-bar-podcast-82634480/episode/05-rom-vs-transformers-shining-armor-84163712/"
+        "title": "Rom Vs. Transformers: Shining Armor",
+        "releasedate": "June 21, 2021",
+        "youtubelink": "https://youtu.be/GzNW17R3g08"
     },
     {
         "episode": 6,
-        "description":"Come hang out with Killobyte as he continues his journey through the 2005 IDW Transformers saga with Hearts Of Steel. In this special episode, Killobyte talks about the comic and his favorite parts.",
-        "youtubelink":"https://youtu.be/iPilNmTAKCg",
-        "spotifylink":"https://open.spotify.com/episode/2b7we8TeR4JYOKw7kfZh4R",
-        "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N3ZXJ2ZXNiYXJwb2RjYXN0L2ZlZWQueG1s/episode/c3dlcnZlc2JhcnBvZGNhc3QucG9kYmVhbi5jb20vMTRhOGY2YTUtNGQ0OC0zYzYyLWE1NTgtZjJhZjE0NzBkOGIw?sa=X&ved=0CA0QkfYCahcKEwjA-fvpt-TxAhUAAAAAHQAAAAAQAQ",
-        "Iheartlink":"https://www.iheart.com/podcast/269-swerves-bar-podcast-82634480/episode/06-hearts-of-steel-killobytes-84730276/"
+        "title": "Hearts Of Steel: Killobytes Corner",
+        "releasedate": "July 12, 2021",
+        "youtubelink": "https://youtu.be/iPilNmTAKCg"
     },
     {
         "episode": 7,
-        "description":"Come hang out with 0nyx Prime, C0mputr0n, and Kill0-byte as they continue their journey through the 2005 IDW Transformers saga with Infiltration Our hosts will talk about highlights of the comics and aspects that they enjoyed, you may even learn a few fun facts about the comics run.",
-        "youtubelink":"https://youtu.be/uLm1u6aEVdY",
-        "spotifylink":"https://open.spotify.com/episode/02R2bEDBFqlwwAbbH2fk5V?si=ZlBpGVXIQQ-DiaEqJuhCOQ&dl_branch=1",
-        "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N3ZXJ2ZXNiYXJwb2RjYXN0L2ZlZWQueG1s/episode/c3dlcnZlc2JhcnBvZGNhc3QucG9kYmVhbi5jb20vZWJhOWFlMGEtNTRlNi0zOTFmLWFiMmQtNWJiNWU4ZjNkNTM1?sa=X&ved=0CAUQkfYCahcKEwiIvOTmpfjxAhUAAAAAHQAAAAAQGQ",
-        "Iheartlink":"https://www.iheart.com/podcast/269-swerves-bar-podcast-82634480/episode/07-transformers-infiltration-84983456/"
+        "title": "Transformers: Infiltration",
+        "releasedate": "July 19, 2021",
+        "youtubelink": "https://youtu.be/uLm1u6aEVdY"
     },
     {
         "episode": 8,
-        "description":"Come hang out with 0nyx Prime, C0mputr0n, and Kill0-byte as they continue their journey through the 2005 IDW Transformers saga with Stormbringer. Our hosts will talk about highlights of the comics and aspects that they enjoyed, you may even learn a few fun facts about the comics run. ",
-        "youtubelink":"https://youtu.be/GJ27XJVserE",
-        "spotifylink":"https://open.spotify.com/episode/4DgViF2FU0paeJikkfr79z?si=Oi5KktyjQX-rHK0A3eDtuQ&dl_branch=1",
-        "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N3ZXJ2ZXNiYXJwb2RjYXN0L2ZlZWQueG1s/episode/c3dlcnZlc2JhcnBvZGNhc3QucG9kYmVhbi5jb20vNzI1Zjc5NWUtODVhMi0zZTVkLWE2NDktYTFjZTMyZjY3MjJh?sa=X&ved=0CAUQkfYCahcKEwjAvPfTs4byAhUAAAAAHQAAAAAQGA",
-        "Iheartlink":"https://www.iheart.com/podcast/269-swerves-bar-podcast-82634480/episode/08-transformers-stormbringer-85214269/"
+        "title": "Transformers: Stormbringer",
+        "releasedate": "July 26,2021",
+        "youtubelink": "https://youtu.be/GJ27XJVserE"
     },
     {
         "episode": 9,
-        "description":"Come hang out with 0nyx Prime, C0mputr0n, and Kill0-byte as they continue their journey through the 2005 IDW Transformers saga with Escalation. Our hosts will talk about highlights of the comics and aspects that they enjoyed, you may even learn a few fun facts about the comics run.",
-        "youtubelink":"https://youtu.be/Lm_ninbuCjQ",
-        "spotifylink":"https://open.spotify.com/episode/1GpY4NqIj9uoSaZBk3jK41?si=E2bgyOCxSuGs22XtqL0ybw&dl_branch=1",
-        "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N3ZXJ2ZXNiYXJwb2RjYXN0L2ZlZWQueG1s/episode/c3dlcnZlc2JhcnBvZGNhc3QucG9kYmVhbi5jb20vNjk4ZDk3NzctM2M4OC0zYzU0LTg2ZjgtYTY1MDVhZmIzNjc1?sa=X&ved=0CAUQkfYCahcKEwi49JLJnq7yAhUAAAAAHQAAAAAQGA",
-        "Iheartlink":"https://www.iheart.com/podcast/269-swerves-bar-podcast-82634480/episode/09-transformers-escalation-85675935/"
+        "title": "Transformers: Escalation",
+        "releasedate": "August 9, 2021",
+        "youtubelink": "https://youtu.be/Lm_ninbuCjQ"
     },
     {
         "episode": 10,
-        "description":"Sixshot has Come-eth!!!!! Come join 0nyx Prime, C0mputr0n, and Kill0-byte as they continue their journey through the 2005 IDW Transformers saga with Devastation. Our hosts will talk about highlights of the comics and aspects that they enjoyed, you may even learn a few fun facts about the comics run.",
-        "youtubelink":"https://youtu.be/fvHIcrZR-VA",
-        "spotifylink":"https://open.spotify.com/episode/2YifGr6qn1ItAv6bJNS1MG?si=Jr782JlPS_Sl2Vhvkt7FJQ&dl_branch=1",
-        "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N3ZXJ2ZXNiYXJwb2RjYXN0L2ZlZWQueG1s/episode/c3dlcnZlc2JhcnBvZGNhc3QucG9kYmVhbi5jb20vMGIzMjMyZWEtYjc1Yi0zMjA1LTkwODgtMmJiMzJmNjBhOTA3?sa=X&ved=0CAUQkfYCahcKEwiowuPV58fyAhUAAAAAHQAAAAAQLA",
-        "Iheartlink":"https://www.iheart.com/podcast/269-swerves-bar-podcast-82634480/episode/10-transformersdevastation-85911276/"
+        "title": "Transformers: Devastation",
+        "releasedate": "August 16, 2021",
+        "youtubelink": "https://youtu.be/fvHIcrZR-VA"
     },
     {
         "episode": 11,
-        "description":"GRIMLOCK!!! Come join 0nyx Prime, C0mputr0n, and Kill0-byte as they continue their journey through the 2005 IDW Transformers saga with Maximum Dinobots.",
-        "youtubelink":"https://youtu.be/GOVD1DTVr2s",
-        "spotifylink":"https://open.spotify.com/episode/5pt86jA44q2fvfXE2d81da?si=wuKiYOhPRYe1EIvbh1IFqg&dl_branch=1",
-        "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N3ZXJ2ZXNiYXJwb2RjYXN0L2ZlZWQueG1s/episode/c3dlcnZlc2JhcnBvZGNhc3QucG9kYmVhbi5jb20vZmM3MzBmYzMtNzBlOC0zMTc2LTk0NmQtZDIyOTE0NGNkYmM4?sa=X&ved=0CAUQkfYCahcKEwiQ9Pqoq9ryAhUAAAAAHQAAAAAQeg",
-        "Iheartlink":"https://www.iheart.com/podcast/269-swerves-bar-podcast-82634480/episode/11-transformers-maximum-dinobots-86140066/"
+        "title": "Transformers: Maximum Dinobots",
+        "releasedate": "August 23, 2021",
+        "youtubelink": "https://youtu.be/GOVD1DTVr2s"
     },
     {
         "episode": 12,
-        "description":"Do you like redemption arcs!?!! Then this episode is for you! Come join 0nyx Prime, C0mputr0n, and Kill0-byte as they continue their journey through the 2005 IDW Transformers saga with Drift Origins.",
-        "youtubelink":"https://youtu.be/dUzrsPjZC7M",
-        "spotifylink":"https://open.spotify.com/episode/1DOFs65MNhCRdkBnOx4ldv?si=fK0skn27Tlu2eLncLmpHXg&dl_branch=1",
-        "googlelink":"https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N3ZXJ2ZXNiYXJwb2RjYXN0L2ZlZWQueG1s/episode/c3dlcnZlc2JhcnBvZGNhc3QucG9kYmVhbi5jb20vNDdlMTA5MjctNDg0YS0zZDU2LWFhZDctZmUzNmRjMTBkZTA1?sa=X&ved=0CAUQkfYCahcKEwiQ9Pqoq9ryAhUAAAAAHQAAAAAQeg",
-        "Iheartlink":"https://www.iheart.com/podcast/269-swerves-bar-podcast-82634480/episode/12-transformers-drift-origins-spotlight-86400298/"
+        "title": "Transformers: Drift Origins & Spotlight",
+        "releasedate": "August 30, 2021",
+        "youtubelink": "https://youtu.be/dUzrsPjZC7M"
+    },
+    {
+        "episode": 13,
+        "title": "Transformers: All Hail Megatron Vol 1",
+        "releasedate": "September 6, 2021",
+        "youtubelink": "https://youtu.be/YYKK9PJNuSg"
+    },
+    {
+        "episode": 14,
+        "title": "Transformers: All Hail Megatron Vol 2",
+        "releasedate": "September 13, 2021",
+        "youtubelink": "https://youtu.be/0oOzOnBwKxo"
+    },
+    {
+        "episode": 15,
+        "title": "Transformers: All Hail Megatron Vol 3",
+        "releasedate": "September 20, 2021",
+        "youtubelink": "https://youtu.be/lQYy8XeA9XM"
+    },
+    {
+        "episode": 16,
+        "title": "Transformers: All Hail Megatron Vol 4",
+        "releasedate": "September 27, 2021",
+        "youtubelink": "https://youtu.be/DT2DwWz2a9w"
+    },
+    {
+        "episode": 17,
+        "title": "Transformers: For All Mankind Vol 1",
+        "releasedate": "October 4, 2021",
+        "youtubelink": "https://youtu.be/wGV40wZFJaU"
+    },
+    {
+        "episode": 18,
+        "title": "Transformers: Last Stand Of The Wreckers",
+        "releasedate": "October 11, 2021",
+        "youtubelink": "https://youtu.be/P4zFH5jhOYU"
+    },
+    {
+        "episode": 19,
+        "title": "Transformers: International Incident Vol 2",
+        "releasedate": "October 18, 2021",
+        "youtubelink": "https://youtu.be/mhEFbdorGZA"
+    },
+    {
+        "episode": 20,
+        "title": "Transformers: Revenge Of The Decepticons Vol 3",
+        "releasedate": "October 25, 2021",
+        "youtubelink": "https://youtu.be/HJwotYgAmaA"
+    },
+    {
+        "episode": 21,
+        "title": "Transformers: Ironhide",
+        "releasedate": "November 1, 2021",
+        "youtubelink": "https://youtu.be/nRfedyOFznE"
+    },
+    {
+        "episode": 22,
+        "title": "Heart of Darkness Vol 4: Killobytes Corner",
+        "releasedate": "November 8, 2021",
+        "youtubelink": "https://youtu.be/20pFcBBgVeY"
+    },
+    {
+        "episode": 23,
+        "title": "Transformers: Chaos Theory Vol 5",
+        "releasedate": "November 15, 2021",
+        "youtubelink": "https://youtu.be/-u1KzawtU_Q"
+    },
+    {
+        "episode": 24,
+        "title": "Transformers: Chaos Police Action Vol 6",
+        "releasedate": "November 22, 2021",
+        "youtubelink": "https://youtu.be/jQZm_hcdP3M"
+    },
+    {
+        "episode": 25,
+        "title": "Transformers: Chaos Vol 7",
+        "releasedate": "November 29, 2021",
+        "youtubelink": "https://youtu.be/6CriI_IMcEY"
     }
-   
 ]
