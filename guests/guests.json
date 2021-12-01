@@ -1,15 +1,11 @@
 [
     {
-        "guestId":1,
-        "name":"",        
-        "dndId":"",
-        "comicId": "",
-        "summary":"",
-        "socials":
-        {
-            "twitter":"",
-            "fb":"",
-            "twitch":""
-        }
+        "guestId": 1,
+        "name": "Hexamis",
+        "dndIds": [1],
+        "comicIds": [1],
+        "twitter": "",
+        "fb": "",
+        "twitch": "twitch.tv/hexamisart"
     }
 ]
