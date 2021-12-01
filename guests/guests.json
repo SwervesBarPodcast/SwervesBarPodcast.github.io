@@ -2,8 +2,8 @@
     {
         "guestId": 1,
         "name": "Hexamis",
-        "dndIds": [1],
-        "comicIds": [1],
+        "dndIds": [],
+        "comicIds": [],
         "twitter": "",
         "fb": "",
         "twitch": "twitch.tv/hexamisart"
