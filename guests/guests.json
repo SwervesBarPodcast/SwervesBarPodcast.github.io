@@ -2,7 +2,7 @@
     {
         "guestId": 1,
         "name": "Hexamis",
-        "dndIds": [],
+        "dndIds": [4,5,6,8,9,10,11,12,13,14,15],
         "comicIds": [],
         "twitter": "https://twitter.com/HexamisArt"
         
@@ -25,7 +25,7 @@
     }, {
         "guestId": 4,
         "name": "Trish",
-        "dndIds": [],
+        "dndIds": [15],
         "comicIds": [],
         "twitter": "https://twitter.com/ARogueTrish"
         

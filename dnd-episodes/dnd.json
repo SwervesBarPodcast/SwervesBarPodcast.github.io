@@ -69,7 +69,7 @@
         "episode": 12,
         "title": "Spacebridge Of Horrors!",
         "releasedate": "October 23, 2021",
-        "youtubelink": "hhttps://youtu.be/tdPTYoQuF9o" 
+        "youtubelink": "https://youtu.be/tdPTYoQuF9o" 
     },
     {
         "episode": 13,
@@ -82,5 +82,11 @@
         "title": "Death & Rebirth",
         "releasedate": "November 20, 2021",
         "youtubelink": "https://youtu.be/SSIjjACQqI8"
+    },
+    {
+        "episode": 15,
+        "title": "Mercenary Shenanigans",
+        "releasedate": "December 4, 2021",
+        "youtubelink": "https://youtu.be/Qkbjntqo2nQ"
     }
 ]
