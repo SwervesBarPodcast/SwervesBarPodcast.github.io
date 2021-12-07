@@ -42,10 +42,12 @@ else
 
                 @foreach (var id in guest.dndIds)
                             {
+                                <tr>
                                 <td>@dndEpisodes.First(d => d.episode == id).title</td>
                                 <td>TF: Rise Of The World Killers</td>
                                 <td>@dndEpisodes.First(d => d.episode == id).releasedate</td>
-                                <td>@dndEpisodes.First(d => d.episode == id).youtubelink</td>
+                                <td><a href="@dndEpisodes.First(d => d.episode == id).youtubelink" class="btn btn-outline-danger"><em class="fab fa-youtube" data-toggle="tooltip" title="YouTube"></em></a></td>
+                                </tr>
                             }
 
 
@@ -72,10 +74,11 @@ else
 
                 @foreach (var id in guest.comicIds)
                             {
-                                <td>@comics.First(c => c.episode == id).title</td>
+                             <tr>   <td>@comics.First(c => c.episode == id).title</td>
                                 <td>IDW 2005 Comics</td>
                                 <td>@comics.First(c => c.episode == id).releasedate</td>
                                 <td>@comics.First(c => c.episode == id).youtubelink</td>
+                                </tr>
 
                             }
 
