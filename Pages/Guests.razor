@@ -109,21 +109,21 @@ else
         comics = await Http.GetFromJsonAsync<Comic[]>("comic-episodes/comics.json");
         dndEpisodes = await Http.GetFromJsonAsync<DndEpisode[]>("dnd-episodes/dnd.json");
     }
-    public class DndEpisode
-    {
+
+    public class EpisodeBase{
         public int episode { get; set; }
         public string title { get; set; }
         public string releasedate { get; set; }
         public string youtubelink { get; set; }
-
     }
-    public class Comic
+    public class DndEpisode : EpisodeBase
     {
-        public int episode { get; set; }
-        public string title { get; set; }
-        public string releasedate { get; set; }
-        public string youtubelink { get; set; }
-
+    }
+    public class Comic : EpisodeBase
+    {
+    }
+    public class CrossOver : EpisodeBase
+    {
     }
     public class Guest
     {
