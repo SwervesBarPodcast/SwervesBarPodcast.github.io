@@ -7,6 +7,18 @@ html, body {
 a, .btn-link {
     color: #0366d6;
 }
+.link-buttons{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.caousel-container{
+    max-width: 500px;
+    margin: auto;
+}
+.page-header{
+    text-align: center;
+}
 
 .btn-primary {
     color: #fff;
@@ -209,8 +221,8 @@ app {
   }
 
   img {
-    /* width: auto;
-    height: auto; */
+    width: auto;
+    height: auto;
     object-fit: contain;
   }
     /* Three image containers (use 25% for four, and 50% for two, etc) */
