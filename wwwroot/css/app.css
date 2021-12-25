@@ -12,14 +12,18 @@ a, .btn-link {
     text-align: center;
     align-items: center;
 }
-.caousel-container{
+.carousel-container{
     max-width: 500px;
     margin: auto;
+    text-align: center;
+    align-items: center;
 }
 .page-header{
     text-align: center;
 }
-
+.carousel-caption{
+    background: rgba(0,0,0,0.5) !important; 
+}
 .btn-primary {
     color: #fff;
     background-color: #1b6ec2;
