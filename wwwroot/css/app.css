@@ -1,4 +1,10 @@
-﻿
+﻿.navbar{
+    background: linear-gradient(90deg, #3a0647 0%, rgb(49, 49, 49) 70%);
+    background-size: 400% 400%;
+    
+    -webkit-animation: AnimationName 16s ease infinite;
+    animation: AnimationName 16s ease infinite;
+}
 .link-buttons{
     justify-content: center;
     text-align: center;
@@ -42,4 +48,14 @@
 
 .about-us {
     text-align: center;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
 }
