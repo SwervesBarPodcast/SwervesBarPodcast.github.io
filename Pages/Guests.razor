@@ -12,17 +12,19 @@ else
     {
         <div class="row">
     <div class="col-md-4">
-        <h3>@guest.name</h3>
-    </div>
-
-    <div class="col-md-2">
-        @if (!string.IsNullOrEmpty(guest.twitter))
+        <h3>@guest.name
+@if (!string.IsNullOrEmpty(guest.twitter))
                 {
-                    <a href=@guest.twitter class="btn btn-outline-primary"><em class="fab fa-twitter" data-toggle="tooltip"
+                    <a href=@guest.twitter class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer"><em class="fab fa-twitter" data-toggle="tooltip"
                 title="twitter"></em></a>
                 }
 
-            </div>
+        </h3>
+        
+
+    </div>
+
+    
 
             <div class="col-md-12">
                 @if (guest.dndIds.Any())
@@ -44,11 +46,11 @@ else
                 @foreach (var id in guest.dndIds)
                             {
                                 <tr>
-                                    <td>@dndEpisodes.First(d => d.episode == id).episode</td>
+                                <td>@dndEpisodes.First(d => d.episode == id).episode</td>
                                 <td>@dndEpisodes.First(d => d.episode == id).title</td>
                                 <td>TF: Rise Of The World Killers</td>
                                 <td>@dndEpisodes.First(d => d.episode == id).releasedate</td>
-                                <td><a href="@dndEpisodes.First(d => d.episode == id).youtubelink" class="btn btn-outline-danger"><em class="fab fa-youtube" data-toggle="tooltip" title="YouTube"></em></a></td>
+                                <td><a href="@dndEpisodes.First(d => d.episode == id).youtubelink" class="btn btn-outline-danger" target="_blank" rel="noopener noreferrer"><em class="fab fa-youtube" data-toggle="tooltip" title="YouTube"></em></a></td>
                                 </tr>
                             }
 
