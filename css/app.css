@@ -59,3 +59,7 @@
     50%{background-position:100% 51%}
     100%{background-position:0% 50%}
 }
+.twitter-link{
+    background: #29aae1;
+    border-radius: 50%;
+}
