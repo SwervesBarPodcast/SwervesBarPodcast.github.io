@@ -7,18 +7,18 @@
 }
 else
 {
-
+<div class="container">
     @foreach (var guest in guests)
     {
+
         <div class="row">
     <div class="col-md-4">
         <h3>@guest.name
-@if (!string.IsNullOrEmpty(guest.twitter))
+                @if (!string.IsNullOrEmpty(guest.twitter))
                 {
                     <a href=@guest.twitter class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer"><em class="fab fa-twitter" data-toggle="tooltip"
                 title="twitter"></em></a>
                 }
-
         </h3>
         
 
@@ -95,6 +95,7 @@ else
         </div>
 
     }
+    </div>
 }
 
 
