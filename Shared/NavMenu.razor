@@ -33,15 +33,21 @@
                     </NavLink>
                 </li>
             </ul>
-            <div class="btn-group">
-        <a href="https://www.facebook.com/Swervesbarpodcast/" type="button" class="btn btn-primary" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com/swervesbarpodcast/" type="button" class="btn btn-danger" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/Swervesbar" type="button" class="btn btn-primary" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
-         <a href="https://www.youtube.com/channel/UCir0lmyl4qT_B_AABMbO4Hg/featured" type="button" class="btn btn-danger" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+           
     </div>
-        </div>
+   
+    <ul class="social-icons">
+        <li><a href="https://www.facebook.com/Swervesbarpodcast/" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-facebook" id="facebookNav"></i></a></li>
+        <li><a href="https://www.instagram.com/swervesbarpodcast/" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-instagram" id="instagramNav"></i></a></li>
+        <li><a href="https://twitter.com/Swervesbar"  class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-twitter" id="twitterNav"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCir0lmyl4qT_B_AABMbO4Hg/featured" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-youtube" id="youtubeNav"></i></a></li>
+        
+    </ul>
+
     </div>
-</nav>
+    
+    
+    </nav>
 @code {
     private bool collapseNavMenu = true;
     private string NavBarCssClass => collapseNavMenu ? null : "show";

@@ -1,9 +1,5 @@
 ﻿.navbar{
-    background: linear-gradient(90deg, #3a0647 0%, rgb(49, 49, 49) 70%);
-    background-size: 400% 400%;
-    
-    -webkit-animation: AnimationName 16s ease infinite;
-    animation: AnimationName 16s ease infinite;
+        background: var(--secondary-500);
 }
 .link-buttons{
     justify-content: center;
@@ -20,7 +16,8 @@
     text-align: center;
 }
 .carousel-caption{
-    background: rgba(0,0,0,0.5) !important; 
+    background: var(--secondary-500) !important; 
+    color: var(--primary-100) !important;
 }
 
   .imageBanner {
@@ -49,17 +46,84 @@
 .about-us {
     text-align: center;
 }
+
+
+.social-icon {
+    color: #fff;
+    box-sizing: inherit !important;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+#facebookNav{
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: var(--secondary-500);
+}
+#facebookNav:hover {
+    background-color: #3d5b99;
+}
+#twitterNav {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: var(--secondary-500);
+}
+#twitterNav:hover {
+    background-color: #00aced;
+}
+#instagramNav{
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: var(--secondary-500);
+}
+#instagramNav:hover {
+    background-color: #E1306C;
+}
+#youtubeNav {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: var(--secondary-500);
+}
+#youtubeNav:hover {
+    background-color: #e64a41;
+}
+*, ::after, ::before {
+    box-sizing: unset !important; 
+}
+
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 51%}
-    100%{background-position:0% 50%}
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
 }
+
 @keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 51%}
-    100%{background-position:0% 50%}
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
 }
-.twitter-link{
-    background: #29aae1;
-    border-radius: 50%;
-}
+  
