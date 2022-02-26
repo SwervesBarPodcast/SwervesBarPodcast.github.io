@@ -1,18 +1,24 @@
 [
     {
         "guestId": 1,
-        "name": "Hexamis",
-        "dndIds": [4,5,6,8,9,10,11,12,13,14,15],
+        "name": "V",
+        "dndIds": [],
         "comicIds": [],
-        "twitter": "https://twitter.com/HexamisArt"
+        "crossoverIds":[],
+        "twitter": "https://twitter.com/megapurrv",
+        "fb": "",
+        "twitch":""
         
     },
     {
         "guestId": 2,
-        "name": "V",
-        "dndIds": [],
+        "name": "Hexamis",
+        "dndIds": [4,5,6,8,9,10,11,12,13,14,15,16,17,18,19,20,21],
         "comicIds": [],
-        "twitter": "https://twitter.com/megapurrv"
+        "crossoverIds":[],
+        "twitter": "https://twitter.com/HexamisArt",
+        "fb": "",
+        "twitch":""
         
     },
     {
@@ -20,14 +26,20 @@
         "name": "Afterspark",
         "dndIds": [],
         "comicIds": [],
-        "twitter": "https://twitter.com/AftersparkPod"
+        "crossoverIds": [1],
+        "twitter": "https://twitter.com/AftersparkPod",
+        "fb": "",
+        "twitch":""
         
     }, {
         "guestId": 4,
         "name": "Trish",
-        "dndIds": [15],
+        "dndIds": [15,16,17,18,19,20,21],
         "comicIds": [],
-        "twitter": "https://twitter.com/ARogueTrish"
+        "crossoverIds": [2],
+        "twitter": "https://twitter.com/ARogueTrish",
+        "fb": "",
+        "twitch":""
         
     }
 ]
