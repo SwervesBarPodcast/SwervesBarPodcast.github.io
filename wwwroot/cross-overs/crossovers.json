@@ -1,14 +1,20 @@
 [
-    {
-        "episode": 1,
-        "title": "Transformers Vs The Terminator",
-        "releasedate": "August 20, 2021",
-        "youtubelink": "https://youtu.be/fRVn_jqWbP4"
-    },
-    {
-        "episode": 2,
-        "title": "Transformers Ghostbusters",
-        "releasedate": "January 14, 2022",
-        "youtubelink": "https://youtu.be/xfDPY25lrJA"
-    }
+  {
+    "episode": 1,
+    "title": "Transformers Vs The Terminator",
+    "releasedate": "August 20, 2021",
+    "youtubelink": "https://youtu.be/fRVn_jqWbP4"
+  },
+  {
+    "episode": 2,
+    "title": "Transformers Ghostbusters",
+    "releasedate": "January 14, 2022",
+    "youtubelink": "https://youtu.be/xfDPY25lrJA"
+  },
+  {
+    "episode": 3,
+    "title": "Transformers Back To The Future",
+    "releasedate": "March 4, 2022",
+    "youtubelink": "https://youtu.be/x0BmUeSH9Ic"
+  }
 ]
