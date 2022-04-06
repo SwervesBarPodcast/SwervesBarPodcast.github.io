@@ -1,0 +1,36 @@
+@page "/crossOver"
+@inject HttpClient Http
+
+<h1 class="page-header">Cross Overs</h1>
+<div class="carousel-container crossover">
+  <div id="comicCarouselCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#comicCarouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#comicCarouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="https://youtu.be/xfDPY25lrJA?list=PLLmXgUDj_Nw9GfnEf9KBCpDdc-73b0tO7"><img src="/crossover-images/GhostbusterCrossoverThumbnail.png" class="d-block w-100" alt="Ghostbusters"></a>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Transformers Ghostbusters</h5>
+        <p>Click The Image To Watch!</p>  
+      </div>
+    </div>
+    <div class="carousel-item">
+      <a href="https://youtu.be/fRVn_jqWbP4?list=PLLmXgUDj_Nw9GfnEf9KBCpDdc-73b0tO7"<img src="/crossover-images/TerminatorCrossOverThumbnail.jpg" class="d-block w-100" alt="Terminator"></a>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Transformers Vs The Terminator</h5>
+        <p>Click The Image To Watch!</p>     
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#comicCarouselCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#comicCarouselCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>

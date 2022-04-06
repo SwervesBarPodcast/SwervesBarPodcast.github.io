@@ -1,62 +1,86 @@
 @page "/dndArchive"
 @inject HttpClient Http
 
-<h1>TF&RO: Rise Of The World Killers</h1>
-   @* Add the carousel here *@
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-        <div class="carousel-inner">
-
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="wwwroot/images/RiseOfTheWorldKillers.png" alt="">
-            </div>
-
-            <div class="carousel-item">
-                <img class="d-block w-100" src="images/fountain.jpg" alt="Magic Fountain, Lima Peru">
-            </div>
-
-            <div class="carousel-item">
-                <img class="d-block w-100" src="images/lights.jpg" alt="Zoo Lights">
-            </div>
-
-            <div class="carousel-item">
-                <img class="d-block w-100" src="images/newport.jpg" alt="Nye Beach, Newport OR">
-            </div>
-
-            <div class="carousel-item">
-                <img class="d-block w-100" src="images/bee.jpg" alt="Halloween, Nectar Creek, Philomath OR">
-            </div>
-
-            <div class="carousel-item">
-                <img class="d-block w-100" src="images/coast.jpg" alt="Neskowin Beach, OR">
-            </div>
-        </div>
+<h1 class="page-header">Below are some lovely images by Al3xolotl and Hexamis.</h1>
+<div class="carousel-container">
+  <div id="comicCarouselCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#comicCarouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#comicCarouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#comicCarouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+     <button type="button" data-bs-target="#comicCarouselCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#comicCarouselCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/fanart/Ultimate_Art.png" class="d-block w-100" alt="Ultimate">
+      <div class="carousel-caption d-none d-md-block">
+        <p>Art By:</p>
+        <h5>Hexamis</h5>
+      </div>
     </div>
+    <div class="carousel-item">
+      <img src="/fanart/behemoth_full_body_commission.jpg" class="d-block w-100" alt="Behemoth">
+      <div class="carousel-caption d-none d-md-block">
+        <p>Art By:</p>
+        <h5>Al3xolotl</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/fanart/Transform&RollOut!.png" class="d-block w-100" alt="TransformAndRollOut">
+      <div class="carousel-caption d-none d-md-block">
+        <p>Art By:</p>
+        <h5>Hexamis</h5>
+      </div>
+    </div>
+     <div class="carousel-item">
+      <img src="/fanart/cybertron_poster.png" class="d-block w-100" alt="PosterCommission">
+      <div class="carousel-caption d-none d-md-block">
+        <p>Art By:</p>
+        <h5>Hexamis</h5>
+      </div>
+    </div>
+     <div class="carousel-item">
+      <img src="/fanart/zephyr_in_space.jpg" class="d-block w-100" alt="ZephyrMVP">
+      <div class="carousel-caption d-none d-md-block">
+        <p>Art By:</p>
+        <h5>Hexamis</h5>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#comicCarouselCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#comicCarouselCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
 
 <div class="row">
-    <div class="col-md-6">
+    <div class="link-buttons">
         <div class="btn-group">
-            <a href="https://open.spotify.com/show/2sNbgkUD1iaxDFjflRzS3X" class="btn btn-outline-success"><em
-                    class="fab fa-spotify" data-toggle="tooltip" title="Spotify"></em></a>
+            <a href="https://open.spotify.com/show/0EnTQ0uFvD4mvIRWInxy4R" class="btn btn-success"
+                target="_blank" rel="noopener noreferrer"><em class="fab fa-spotify" data-toggle="tooltip"
+                    title="Spotify"></em></a>
 
-            <a href="https://www.youtube.com/playlist?list=PLLmXgUDj_Nw_yW3GwbyAjmU4yxLXN2G6m"
-                class="btn btn-outline-danger"><em class="fab fa-youtube" data-toggle="tooltip"
-                    title="YouTube"></em></a>
+            <a href="https://www.youtube.com/playlist?list=PLLmXgUDj_Nw90LxOJylHV-fDUfydYPDJh"
+                class="btn btn-danger" target="_blank" rel="noopener noreferrer"><em class="fab fa-youtube"
+                    data-toggle="tooltip" title="YouTube"></em></a>
 
-            <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3RyYW5zZm9ybWFuZHJvbGxvdXQvZmVlZC54bWw?sa=X&ved=0CAMQ4aUDahcKEwiws7G_-rv0AhUAAAAAHQAAAAAQAQ"
-                class="btn btn-outline-primary"><em class="fab fa-google" data-toggle="tooltip"
-                    title="Google Podcast"></em></a>
-            <a href="https://www.iheart.com/podcast/269-transform-roll-out-rise-of-82634567"
-                class="btn btn-outline-danger"><em class="far fa-heart" data-toggle="tooltip"
+            <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3N3ZXJ2ZXNiYXJwb2RjYXN0L2ZlZWQueG1s?sa=X&ved=0CAQQ9sEGahcKEwiws7G_-rv0AhUAAAAAHQAAAAAQHA"
+                class="btn btn-primary" target="_blank" rel="noopener noreferrer"><em class="fab fa-google"
+                    data-toggle="tooltip" title="Google Podcast"></em></a>
+            <a href="https://www.iheart.com/podcast/269-swerves-bar-podcast-82634480/" class="btn btn-danger"
+                target="_blank" rel="noopener noreferrer"><em class="far fa-heart" data-toggle="tooltip"
                     title="iHeart Radio"></em></a>
-            <a href="https://podcastaddict.com/podcast/3593767" class="btn btn-outline-warning"><em
-                    class="fas fa-podcast" data-toggle="tooltip" title="Podcast Addict"></em></a>
-            <a href="https://www.bullhorn.fm/transformrolloutriseoftheworld" class="btn btn-outline-danger"><em
-                    class="fas fa-bullhorn" data-toggle="tooltip" title="Bullhorn"></em></a>
+            <a href="https://podcastaddict.com/podcast/3544397" class="btn btn-warning" target="_blank"
+                rel="noopener noreferrer"><em class="fas fa-podcast" data-toggle="tooltip"
+                    title="Podcast Addict"></em></a>
+            <a href="https://www.bullhorn.fm/swervesbarpodcast" class="btn btn-danger" target="_blank"
+                rel="noopener noreferrer"><em class="fas fa-bullhorn" data-toggle="tooltip" title="Bullhorn"></em></a>
         </div>
     </div>
 </div>
-
-
-
-
