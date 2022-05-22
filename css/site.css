@@ -118,3 +118,7 @@ a, .btn-link {
     body {
         background-color: var(--primary-50);
         }
+
+.btnwrap {
+    text-align: center;
+}
