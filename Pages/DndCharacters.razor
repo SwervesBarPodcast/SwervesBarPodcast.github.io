@@ -1,0 +1,47 @@
+﻿@page "/dndCharacters"
+@inject HttpClient Http
+
+<style>
+    .phase {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .column {
+        width: auto;
+        float: left;
+        margin-left: 20px;
+        padding: 10px;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    #links {
+        text-align: center;
+    }
+
+</style>
+
+<h1 class="page-header">DND Campaigns</h1>
+<div>
+
+    @*hyperlinks to campaigns*@
+    <div class="row">
+        <ul>
+            <li><h3>Check out each campaign and their characters:</h3></li>
+            <li><h5><a href="dndCharacters#campaign_one" target="_top">Campaign 1</a></h5></li>
+            @*<li><h5><a href="dndCharacters#campaign_two" target="_top">Campaign 2</a></h5></li>
+            <li><h5><a href="dndCharacters#campaign_two" target="_top">Campaign 3</a></h5></li>*@
+        </ul>
+    </div>
+
+    <div class="campaign" id="campaign_one"><h3>Transform & Roll Out!</h3></div>
+
+
+    @*<div class="campaign" id="campaign_two"><h3>Campaign 2</h3></div>
+    <div class="campaign" id="campaign_three"><h3>Campaign 3</h3></div>*@
+
+
+</div>
