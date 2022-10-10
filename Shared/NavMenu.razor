@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <a class="navbar-brand" href="">Swerve's Bar</a>
         <button class="navbar-toggler @NavButtonCssClass" type="button" aria-controls="navbarCollapse"
-            aria-label="Toggle navigation" @onclick="ToggleNavMenu">
+                aria-label="Toggle navigation" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse @NavBarCssClass" id="navbarCollapse" @onclick="ToggleNavMenu">
@@ -23,7 +23,7 @@
                     </NavLink>
                 </li>
                 <li class="nav-item">
-                    <NavLink class="nav-link disabled" href="" >
+                    <NavLink class="nav-link disabled" href="">
                         <span class="fas fa-arrow-right" aria-hidden="true"></span> Content:
                     </NavLink>
                 </li>
@@ -32,15 +32,26 @@
                         <span class="fas fa-book-open" aria-hidden="true"></span> IDW 2005 Comics
                     </NavLink>
                 </li>
-                <li class="nav-item">
-                    <NavLink class="nav-link" href="dndArchive">
-                        <span class="fas fa-dice-d20" aria-hidden="true"></span> Transformers DND
+                <li class="nav-item dropdown">
+                    <NavLink class="nav-link" @onclick="()=>expandSubMenu= !expandSubMenu">
+                        Transformers DND
+                        <i class="fa fa-caret-down"></i>
                     </NavLink>
-                </li>
-                <li class="nav-item">
-                    <NavLink class="nav-link" href="dndCharacters">
-                        <span class="fas fa-dice-d20" aria-hidden="true"></span> DND Characters
-                    </NavLink>
+                    @if (expandSubMenu)
+                    {
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <NavLink class="nav-link" href="dndArchive" @onclick="()=>expandSubMenu= !expandSubMenu">
+                                    <span class="fas fa-dice-d20" aria-hidden="true"></span> DND Campaigns
+                                </NavLink>
+                            </li>
+                            <li class="nav-item">
+                                <NavLink class="nav-link" href="dndCharacters" @onclick="()=>expandSubMenu= !expandSubMenu">
+                                    <span class="fas fa-dice-d20" aria-hidden="true"></span> DND Characters
+                                </NavLink>
+                            </li>
+                        </ul>
+                    }
                 </li>
                 <li class="nav-item">
                     <NavLink class="nav-link" href="crossOver">
@@ -48,28 +59,29 @@
                     </NavLink>
                 </li>
             </ul>
-           
-    </div>
-   
-    <ul class="social-icons">
-        <li><a href="https://www.facebook.com/Swervesbarpodcast/" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-facebook" id="facebookNav"></i></a></li>
-        <li><a href="https://www.instagram.com/swervesbarpodcast/" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-instagram" id="instagramNav"></i></a></li>
-        <li><a href="https://twitter.com/Swervesbar"  class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-twitter" id="twitterNav"></i></a></li>
-        <li><a href="https://www.youtube.com/channel/UCir0lmyl4qT_B_AABMbO4Hg/featured" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-youtube" id="youtubeNav"></i></a></li>
-    </ul>
+
+        </div>
+
+        <ul class="social-icons">
+            <li><a href="https://www.facebook.com/Swervesbarpodcast/" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-facebook" id="facebookNav"></i></a></li>
+            <li><a href="https://www.instagram.com/swervesbarpodcast/" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-instagram" id="instagramNav"></i></a></li>
+            <li><a href="https://twitter.com/Swervesbar" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-twitter" id="twitterNav"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCir0lmyl4qT_B_AABMbO4Hg/featured" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-youtube" id="youtubeNav"></i></a></li>
+        </ul>
 
     </div>
-    
-    
-    </nav>
+
+
+</nav>
 @code {
     private bool collapseNavMenu = true;
+    private bool expandSubMenu;//add
     private string NavBarCssClass => collapseNavMenu ? null : "show";
     private string NavButtonCssClass => collapseNavMenu ? "collapsed" : null;
-
 
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
     }
+
 }

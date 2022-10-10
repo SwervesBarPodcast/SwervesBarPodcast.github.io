@@ -24,24 +24,55 @@
 
 </style>
 
-<h1 class="page-header">DND Campaigns</h1>
+<h1 class="page-header">DND Characters</h1>
 <div>
 
     @*hyperlinks to campaigns*@
+
     <div class="row">
-        <ul>
-            <li><h3>Check out each campaign and their characters:</h3></li>
-            <li><h5><a href="dndCharacters#campaign_one" target="_top">Campaign 1</a></h5></li>
-            @*<li><h5><a href="dndCharacters#campaign_two" target="_top">Campaign 2</a></h5></li>
-            <li><h5><a href="dndCharacters#campaign_two" target="_top">Campaign 3</a></h5></li>*@
-        </ul>
+        @if(characters == null)
+        {
+            <p>Loading...</p>
+        }
+        else
+        {
+            @foreach(var character in characters)
+            {
+                <div class="column left">
+                    <img src=@character.Image class="d-block img-fluid" alt=@character.Name/>
+                </div>
+                <div class="column right">
+                    <p><b>Character Name: </b>@character.Name</p>
+                    <p><b>Player Name: </b>@character.Player</p>
+                    <p><b>Character Alt Mode & Color: </b>@character.Alt_Mode</p>
+                    <p><b>Character Class: </b> @character.Class</p>
+                    <p><b>Character Affiliation: </b>@character.Affiliation</p>
+                    <p><b>Character Description: </b>@character.Description</p>
+                    <p><b>Featured Campaigns: </b><a href="dndArchive#@character.Campaigns" target="_top">@character.Campaigns</a></p>
+                </div>
+            }
+        }
+        
     </div>
-
-    <div class="campaign" id="campaign_one"><h3>Transform & Roll Out!</h3></div>
-
-
-    @*<div class="campaign" id="campaign_two"><h3>Campaign 2</h3></div>
-    <div class="campaign" id="campaign_three"><h3>Campaign 3</h3></div>*@
-
-
 </div>
+
+@code {
+    private DndCharacterInfo[] characters;
+
+    protected override async Task OnInitializedAsync()
+    {
+        characters = await Http.GetFromJsonAsync<DndCharacterInfo[]>("/dnd-characters/characters.json");
+    }
+
+    public class DndCharacterInfo
+    {
+        public string Name { get; set; }
+        public string Player { get; set; }
+        public string Alt_Mode { get; set; }
+        public string Class { get; set; }
+        public string Affiliation { get; set; }
+        public string Description { get; set; }
+        public string Campaigns { get; set; }
+        public string Image { get; set; }
+    }
+}

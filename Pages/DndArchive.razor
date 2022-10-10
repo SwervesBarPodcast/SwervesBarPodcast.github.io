@@ -1,8 +1,16 @@
 @page "/dndArchive"
 @inject HttpClient Http
 
-<h1 class="page-header">Below are some lovely images by Al3xolotl and Hexamis.</h1>
-<div class="carousel-container">
+<style>
+    .d-block{
+        padding-top: 3%;
+        margin-left: 5%;
+        max-width: 50%;
+    }
+</style>
+
+<h1 class="page-header">Campaigns:</h1>
+@*<div class="carousel-container">
   <div id="comicCarouselCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#comicCarouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -57,6 +65,27 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+</div>*@
+
+<div class="row">
+    <div class="column left">
+        <img src="/fanart/Ultimate_Art.png" class="d-block" width="50" alt="Rise of the World Killers"/>
+    </div>
+    <div class="column right">
+        <h4 id="Rise of the World Killers">Rise of the World Killers</h4>
+        <p>Join Eightwheeler and Zephyr as they travel through the cosmos trying to find who they are as they meet new faces, such as Scorchfire and Mantyx. All 4 of them with one thing in common, Shockwave. What mysteries lie ahead for our heroes? Tune in to find out.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="column left">
+        <img src="/images/PodBeamThumbnail.jpg" class="d-block" alt="First Stand of the Wreckers"/>
+    </div>
+    <div class="column right">
+        <h4 id="First Stand Of The Wreckers">First Stand of the Wreckers</h4>
+        <p>Follow a group of bots who find themselves in the wrong place at the wrong time. They must now solve a mystery to clear their names.</p>
+        <p>A new DM, a new story, new characters, and loads of fun! Let's dive into the mind of Kilobyte who takes over as this season's DM and discover what they have in store for our victims... I mean players!</p>
+    </div>
 </div>
 
 <div class="row">
