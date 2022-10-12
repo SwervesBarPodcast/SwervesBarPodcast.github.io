@@ -1,4 +1,4 @@
-﻿@page "/dndCharacters"
+﻿@page "/dndCharacters/{characterName}"
 @inject HttpClient Http
 
 <style>
@@ -29,7 +29,7 @@
 
     @*hyperlinks to campaigns*@
 
-    <div class="row">
+    <div>
         @if(characters == null)
         {
             <p>Loading...</p>
@@ -38,18 +38,22 @@
         {
             @foreach(var character in characters)
             {
-                <div class="column left">
-                    <img src=@character.Image class="d-block img-fluid" alt=@character.Name/>
-                </div>
-                <div class="column right">
-                    <p><b>Character Name: </b>@character.Name</p>
-                    <p><b>Player Name: </b>@character.Player</p>
-                    <p><b>Character Alt Mode & Color: </b>@character.Alt_Mode</p>
-                    <p><b>Character Class: </b> @character.Class</p>
-                    <p><b>Character Affiliation: </b>@character.Affiliation</p>
-                    <p><b>Character Description: </b>@character.Description</p>
-                    <p><b>Featured Campaigns: </b><a href="dndArchive#@character.Campaigns" target="_top">@character.Campaigns</a></p>
-                </div>
+                @if(character.Name == characterName)
+                {
+                    <div class="column left">
+                        <img src=@character.Image class="d-block img-fluid" alt=@character.Name/>
+                    </div>
+                    <div class="column right">
+                        <p><b>Character Name: </b>@character.Name</p>
+                        <p><b>Player Name: </b>@character.Player</p>
+                        <p><b>Character Alt Mode & Color: </b>@character.Alt_Mode</p>
+                        <p><b>Character Class: </b> @character.Class</p>
+                        <p><b>Character Affiliation: </b>@character.Affiliation</p>
+                        <p><b>Character Description: </b>@character.Description</p>
+                        <p><b>Featured Campaigns: </b><a href="dndArchive#@character.Campaigns" target="_top">@character.Campaigns</a></p>
+                    </div>
+                }
+
             }
         }
         
@@ -58,6 +62,9 @@
 
 @code {
     private DndCharacterInfo[] characters;
+    [Parameter]
+    public string characterName { get; set; }
+    
 
     protected override async Task OnInitializedAsync()
     {
