@@ -1,0 +1,117 @@
+﻿@page "/dndCharacters/{characterName}"
+@inject HttpClient Http
+
+<style>
+    h1.page-header {
+        font-size: 300%;
+    }
+
+    .phase {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .row {
+        margin-right: 10%;
+        margin-left: 10%;
+        max-width: 90%;
+        font-size: x-large;
+    }
+
+    img {
+        width: 500px;
+        height: 500px;
+        max-width: 90%;
+        max-height: 90%;
+        object-fit: contain;
+        margin-top: 5%;
+        margin-left: auto;
+        background-color: lightblue;
+    }
+
+    .right {
+        padding-top: 3%;
+    }
+
+</style>
+
+<div>
+
+    @*hyperlinks to campaigns*@
+
+    <div>
+        @if(characters == null)
+        {
+            <p>Loading...</p>
+        }
+        else
+        {
+            <div class="row">
+            @foreach(var character in characters)
+            {
+                @if(character.Name == characterName)
+                {
+                    <h1 class="page-header">@character.Name</h1>
+                    <div class="col-lg col-md col-sm left">
+                        <img src=@character.Image alt=@character.Name/>
+                    </div>
+                    <div class="col-lg col-md col-sm right">
+                        <p><b>Player Name: </b>@character.Player</p>
+                        <p><b>Character Alt Mode & Color: </b>@character.Alt_Mode</p>
+                        <p><b>Character Class: </b> @character.Class</p>
+                        <p><b>Character Affiliation: </b>@character.Affiliation</p>
+                        <p><b>Character Description: </b>@character.Description</p>
+                        <p><b>Art By: </b> @character.Art_By</p>
+                        @if (character.Campaigns.ToLower() == "rise of the world killers")
+                        {
+                            <p><b>Featured Campaigns: </b><a href="riseCampaign" target="_top">@character.Campaigns</a></p>
+                        }else if(character.Campaigns.ToLower() == "first stand of the wreckers"){
+                            <p><b>Featured Campaigns: </b><a href="wreckersCampaign" target="_top">@character.Campaigns</a></p>
+                        }else{
+                            Console.WriteLine("No page for that campaign yet.");
+                        }
+                        
+                    </div>
+                }
+                else
+                {
+                    Console.WriteLine("Character Info on another page.");
+                }
+
+            }
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    private DndCharacterInfo[] characters;
+    [Parameter]
+    public string characterName { get; set; }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            characters = await Http.GetFromJsonAsync<DndCharacterInfo[]>("/dnd-characters/characters.json");
+        }catch(Exception e)
+        {
+            Console.WriteLine("Json file not found", e);
+        }
+        
+    }
+
+    public class DndCharacterInfo
+    {
+        public string Name { get; set; }
+        public string Player { get; set; }
+        public string Alt_Mode { get; set; }
+        public string Class { get; set; }
+        public string Affiliation { get; set; }
+        public string Description { get; set; }
+        public string Campaigns { get; set; }
+        public string Image { get; set; }
+        public string Art_By { get; set; }
+    }
+}

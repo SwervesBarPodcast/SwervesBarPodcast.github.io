@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <a class="navbar-brand" href="">Swerve's Bar</a>
         <button class="navbar-toggler @NavButtonCssClass" type="button" aria-controls="navbarCollapse"
-            aria-label="Toggle navigation" @onclick="ToggleNavMenu">
+                aria-label="Toggle navigation" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse @NavBarCssClass" id="navbarCollapse" @onclick="ToggleNavMenu">
@@ -12,54 +12,95 @@
                         <span class="oi oi-home" aria-hidden="true"></span> Home
                     </NavLink>
                 </li>
+                @*<li class="nav-item">
+                    <NavLink class="nav-link" href="guests">
+                        <span class="fas fa-users" aria-hidden="true"></span> Guests
+                    </NavLink>
+                </li>*@
                 <li class="nav-item">
                     <NavLink class="nav-link" href="swervesArchive">
                         <span class="fas fa-book-open" aria-hidden="true"></span> IDW 2005 Comics
                     </NavLink>
                 </li>
-                <li class="nav-item">
-                    <NavLink class="nav-link" href="dndArchive">
-                        <span class="fas fa-dice-d20" aria-hidden="true"></span> TF: Rise Of The World Killers
-                    </NavLink>
-                </li>
-                <li class="nav-item">
+                @*<li class="nav-item">
                     <NavLink class="nav-link" href="crossOver">
                         <span class="fas fa-exchange-alt" aria-hidden="true"></span> Cross Overs
                     </NavLink>
-                </li>
-                <li class="nav-item">
-                    <NavLink class="nav-link" href="guests">
-                        <span class="fas fa-users" aria-hidden="true"></span> Guests
+                </li>*@
+                <li class="nav-item dropdown">
+                    <NavLink class="nav-link" @onclick="openSubMenu" aria-controls="subMenu">
+                        Transformers DND
+                        <i class="fa fa-caret-down"></i>
                     </NavLink>
+                    <div id="subMenu">
+                        @if (expandSubMenu)
+                    {
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <NavLink class="nav-link" href="riseCampaign" @onclick="closeSubMenu">
+                                    <span class="fas fa-dice-d20" aria-hidden="true"></span> Rise of the World Killers
+                                </NavLink>
+                            </li>
+                            <li class="nav-item">
+                                <NavLink class="nav-link" href="wreckersCampaign" @onclick="closeSubMenu">
+                                    <span class="fas fa-dice-d20" aria-hidden="true"></span> First Stand of the Wreckers
+                                </NavLink>
+                            </li>
+                            <li class="nav-item">
+                                <NavLink class="nav-link" href="dndPlayers" @onclick="closeSubMenu">
+                                    <span class="fas fa-dice-d20" aria-hidden="true"></span> Players
+                                </NavLink>
+                            </li>
+                        </ul>
+                    }
+                    </div>
                 </li>
                 <li class="nav-item">
                     <NavLink class="nav-link" href="https://www.patreon.com/user?u=72112451&fan_landing=true">
                         <span class="fas fa-medal" aria-hidden="true"></span> Patreon
                     </NavLink>
                 </li>
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=500570">
+                        <span class="fas fa-gift" aria-hidden="true"></span> extraLife
+                    </NavLink>
+                </li>
             </ul>
-           
-    </div>
-   
-    <ul class="social-icons">
-        <li><a href="https://www.facebook.com/Swervesbarpodcast/" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-facebook" id="facebookNav"></i></a></li>
-        <li><a href="https://www.instagram.com/swervesbarpodcast/" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-instagram" id="instagramNav"></i></a></li>
-        <li><a href="https://twitter.com/Swervesbar"  class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-twitter" id="twitterNav"></i></a></li>
-        <li><a href="https://www.youtube.com/channel/UCir0lmyl4qT_B_AABMbO4Hg/featured" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-youtube" id="youtubeNav"></i></a></li>
-    </ul>
+
+        </div>
+
+        <ul class="social-icons">
+            <li><a href="https://www.facebook.com/Swervesbarpodcast/" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-facebook" id="facebookNav"></i></a></li>
+            <li><a href="https://www.instagram.com/swervesbarpodcast/" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-instagram" id="instagramNav"></i></a></li>
+            <li><a href="https://twitter.com/Swervesbar" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-twitter" id="twitterNav"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCir0lmyl4qT_B_AABMbO4Hg/featured" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fab fa-youtube" id="youtubeNav"></i></a></li>
+        </ul>
 
     </div>
-    
-    
-    </nav>
+
+
+</nav>
 @code {
     private bool collapseNavMenu = true;
+    private bool expandSubMenu;
     private string NavBarCssClass => collapseNavMenu ? null : "show";
     private string NavButtonCssClass => collapseNavMenu ? "collapsed" : null;
-
 
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
     }
+
+    private void openSubMenu()
+    {
+        expandSubMenu = !expandSubMenu;
+        collapseNavMenu = true;
+    }
+
+    private void closeSubMenu()
+    {
+        expandSubMenu = !expandSubMenu;
+        collapseNavMenu = true;
+    }
+
 }

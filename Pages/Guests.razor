@@ -144,9 +144,9 @@ else
     protected override async Task OnInitializedAsync()
     {
         guests = await Http.GetFromJsonAsync<Guest[]>("guests/guests.json");
-        comics = await Http.GetFromJsonAsync<Comic[]>("comic-episodes/comics.json");
-        dndEpisodes = await Http.GetFromJsonAsync<DndEpisode[]>("dnd-episodes/dnd.json");
-        crossOvers = await Http.GetFromJsonAsync<CrossOver[]>("cross-overs/crossovers.json");
+        //comics = await Http.GetFromJsonAsync<Comic[]>("comic-episodes/comics.json");
+        //dndEpisodes = await Http.GetFromJsonAsync<DndEpisode[]>("dnd-episodes/dnd.json");
+        //crossOvers = await Http.GetFromJsonAsync<CrossOver[]>("cross-overs/crossovers.json");
     }
 
     public class EpisodeBase{
