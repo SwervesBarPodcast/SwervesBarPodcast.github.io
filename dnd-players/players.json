@@ -1,0 +1,70 @@
+[
+  {
+    "Player_Name": "Killobyte",
+    "Descriptions": "Hello, my name is Killobyte sometimes referred to as Killo. I’m one of the co-hosts here for Swerve’s Bar Podcast and sometimes I DM for our spin off Transformers DND series called Transform & Roll Out! I enjoy playing all types of games, hanging out with friends, creating stories and cooking.",
+    "Show": "Transformers Armada",
+    "Book_Comic": "TBD",
+    "Favorite_Character": "Shockwave, Spinister, Windblade, Blitzwing, Nautica",
+    "Characters": [
+      { "Name": "Eightwheeler" },
+      { "Name": "Stratostorm" },
+      { "Name": "Grease" }
+    ],
+    "Social": "https://www.twitch.tv/killobyteprime",
+    "Image": "/images/Killobyte_ArtByKusa.png",
+    "Art_By": "Kusa"
+  },
+  {
+    "Player_Name": "Onyx",
+    "Descriptions": "Heyo, My name is Onyx Prime, but you can just call me Onyx. I’m one of the co-hosts here for Swerve’s Bar Podcast and sometimes the DM for our spin off Transformers DND series called Transform & Roll Out! I enjoy writing, telling stories, and making new friends!",
+    "Show": "Robots in Disguise (2001)",
+    "Book_Comic": "MTMTE & Lost Light",
+    "Favorite_Character": "Grimlock from all continuity because he is the bestest boi! The DJD from the IDW comics. Favorite toy gimmick is the combiners!",
+    "Characters": [ { "Name": "Cross Summit" } ],
+    "Social": "TBD",
+    "Image": "/images/Onyx_ArtByKusa.png",
+    "Art_By": "Kusa"
+  },
+  {
+    "Player_Name": "C0mputr0n",
+    "Descriptions": "TBD",
+    "Show": "Beast Wars",
+    "Book_Comic": "MTMTE & Lost Light",
+    "Favorite_Character": "Soundwave, Ravage, and Waspinator",
+    "Characters": [
+      { "Name": "Zephyr" },
+      { "Name": "Borg" }
+    ],
+    "Social": "TBD",
+    "Image": "/images/computron_ArtByDeeDeeDesigner.png",
+    "Art_By": "DeeDeeDesigner"
+  },
+  {
+    "Player_Name": "Lapis",
+    "Descriptions": "Hello! I'm Lapis! I've been a huge fan of Transformers since I was a kid, thanks to my dad introducing me to my all time favorite show, Beast Wars. If there's something Beast Wars themed within the Transformers franchise, then I'm all over it! Beast Wars aside, there are many things about Transformers that I enjoy! My list of favorite characters is incredibly long, but I can at least list a few. My favorite Autobot is G1 Wheeljack and my favorite Decepticon is TFP Soundwave. My favorite Maximal is Dinobot and my favorite Predacon is Tarantulas. If we're talking comics, then I'm a huge fan of the More Than Meets The Eye and Lost Light series. The story and characters within those comics are absolutely amazing! Outside of Transformers, I enjoy drawing, writing, playing games, and so much more! I attend conventions quite regularly with the G1 Transformers themed costume group I help run, known as the Arizona Autobots. I enjoy making people smile! That's enough from me! Here is my LinkTree below, if you're interested in finding my socials!",
+    "Show": "Transformers: Prime",
+    "Book_Comic": "Transformers: Exodus",
+    "Favorite_Character": "TBD",
+    "Characters": [
+      { "Name": "Smolder" },
+      { "Name": "FrostFang" }
+    ],
+    "Social": "https://linktr.ee/Lapis01",
+    "Image": "/images/Lapis_ArtByLapis.png",
+    "Art_By": "Lapis"
+  },
+  {
+    "Player_Name": "Hexamis",
+    "Descriptions": "Transformers Cybertron: my very first series I ever watched when I was a smol bean. It’s got a special place in my heart since I remember getting up so early to make sure I could watch it. I thought it was so cool to see humans alongside such giant robots, and of course the Autobots were gentle to them. Also I think I lost my mind when I saw a lady bot later on in the series lmao.",
+    "Show": "Transformers Prime: probably my fav series to date. I really liked the darker ‘edginess’ it had to it, even though it could be goofy too. Also, the designs absolutely floored me! They look so nice and the animations were so cool! This is where I learned I love villains.",
+    "Book_Comic": "TBD",
+    "Favorite_Character": "Knockout, Transformers Prime: I love him. I love his character as a doctor who’s obsessed with himself, a Decepticon but has a ground based vehicle. It’s just very out there and different and his design is just really lovely. He’s got all the confidence I wished I had!",
+    "Characters": [
+      { "Name": "Spitfire" },
+      { "Name": "ScorchFire Prime" }
+    ],
+    "Social": "https://hexamisart.carrd.co/",
+    "Image": "/images/Hexamis.png",
+    "Art_By": "Hexamis"
+  }
+]
