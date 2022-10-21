@@ -30,7 +30,7 @@
     }
 
     .right {
-        padding-top: 7%;
+        padding-top: 3%;
     }
 
 </style>
@@ -52,10 +52,10 @@
                 @if(character.Name == characterName)
                 {
                     <h1 class="page-header">@character.Name</h1>
-                    <div class="column left">
+                    <div class="col-lg col-md col-sm left">
                         <img src=@character.Image alt=@character.Name/>
                     </div>
-                    <div class="column right">
+                    <div class="col-lg col-md col-sm right">
                         <p><b>Player Name: </b>@character.Player</p>
                         <p><b>Character Alt Mode & Color: </b>@character.Alt_Mode</p>
                         <p><b>Character Class: </b> @character.Class</p>
@@ -92,13 +92,14 @@
 
     protected override async Task OnInitializedAsync()
     {
-        try{
-            characters = await Http.GetFromJsonAsync<DndCharacterInfo[]>("/dnd-characters/characters.json");
-        }
-        catch(Exception e)
+        try
         {
-            Console.Write("Character.json file not found",e);
+            characters = await Http.GetFromJsonAsync<DndCharacterInfo[]>("/dnd-characters/characters.json");
+        }catch(Exception e)
+        {
+            Console.WriteLine("Json file not found", e);
         }
+        
     }
 
     public class DndCharacterInfo

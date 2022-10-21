@@ -109,7 +109,14 @@
 
     protected override async Task OnInitializedAsync()
     {
-        characters = await Http.GetFromJsonAsync<DndCharacterInfo[]>("/dnd-characters/characters.json");
+        try
+        {
+            characters = await Http.GetFromJsonAsync<DndCharacterInfo[]>("/dnd-characters/characters.json");
+        }catch(Exception e)
+        {
+            Console.WriteLine("Json file not found", e);
+        }
+        
     }
 
     public class DndCharacterInfo

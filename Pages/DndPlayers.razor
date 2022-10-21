@@ -19,6 +19,7 @@
         margin-top: 2%;
         max-width: 90%;
         font-size: large;
+        border-bottom: solid 3px black;
     }
 
     img {
@@ -56,29 +57,31 @@
                 <div class="col-lg col-md col-sm right">
                     <h2>@player.Player_Name</h2><br>
                     <p><b>Favorite Show: </b>@player.Show</p>
-                    @if (player.Book_Comic == "")
-                    {
-                        <p><b>Favorite Comic or Book: </b>Information coming soon...</p>
-                    }
-                    else
+                    @if (player.Book_Comic != "")
                     {
                         <p><b>Favorite Comic or Book: </b>@player.Book_Comic</p>
                     }
-                    @if (player.Favorite_Character == "")
+                    else
+                    {
+                        <p><b>Favorite Comic or Book: </b>Information coming soon...</p>
+                    }
+                    @if (player.Favorite_Character != "")
+                    {
+                        <p><b>Favorite Characters: </b>@player.Favorite_Character</p>
+
+                    }
+                    else
                     {
                         <p><b>Favorite Characters: </b>Information coming soon...</p>
                     }
-                    else
-                    {
-                        <p><b>Favorite Characters: </b>@player.Favorite_Character</p>
-                    }
-                    @if (player.Descriptions == "")
-                    {
-                        <p><b>Description: </b>Information coming soon...</p>
-                    }
-                    else
+                    @if (player.Descriptions != "")
                     {
                         <p><b>Description: </b> @player.Descriptions</p>
+
+                    }
+                    else
+                    {
+                        <p><b>Description: </b>Information coming soon...</p>
                     }
                     <p><b>Characters: </b></p>
                     @foreach (var character in player.Characters)
@@ -86,13 +89,14 @@
                         Console.WriteLine(character.Name);
                         <p>&emsp; &emsp;<a href="/dndCharacters/@character.Name" target="_top">@character.Name</a></p>
                     }
-                    @if (player.Social == "")
+                    @if (player.Social != "")
                     {
-                        <p><b>Players Social Media Links: </b>Information coming soon...</p>
+                        <p><b>Players Social Media Links: </b><a href="@player.Social">@player.Social</a></p>
+
                     }
                     else
                     {
-                        <p><b>Players Social Media Links: </b><a href="@player.Social">@player.Social</a></p>
+                        <p><b>Players Social Media Links: </b>Information coming soon...</p>
                     }
                     <p><b>Art By: </b> @player.Art_By</p>
                 </div>
@@ -107,7 +111,14 @@
 
     protected override async Task OnInitializedAsync()
     {
-        players = await Http.GetFromJsonAsync<DndPlayerInfo[]>("/dnd-players/players.json");
+        try
+        {
+            players = await Http.GetFromJsonAsync<DndPlayerInfo[]>("/dnd-players/players.json");
+        }catch(Exception e)
+        {
+            Console.WriteLine("Json file not found", e);
+        }
+        
     }
 
     public class CharacterName
