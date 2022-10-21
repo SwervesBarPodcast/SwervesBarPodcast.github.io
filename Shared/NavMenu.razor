@@ -12,10 +12,48 @@
                         <span class="oi oi-home" aria-hidden="true"></span> Home
                     </NavLink>
                 </li>
-                <li class="nav-item">
+                @*<li class="nav-item">
                     <NavLink class="nav-link" href="guests">
                         <span class="fas fa-users" aria-hidden="true"></span> Guests
                     </NavLink>
+                </li>*@
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="swervesArchive">
+                        <span class="fas fa-book-open" aria-hidden="true"></span> IDW 2005 Comics
+                    </NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="crossOver">
+                        <span class="fas fa-exchange-alt" aria-hidden="true"></span> Cross Overs
+                    </NavLink>
+                </li>
+                <li class="nav-item dropdown">
+                    <NavLink class="nav-link" @onclick="openSubMenu" aria-controls="subMenu">
+                        Transformers DND
+                        <i class="fa fa-caret-down"></i>
+                    </NavLink>
+                    <div id="subMenu">
+                        @if (expandSubMenu)
+                    {
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <NavLink class="nav-link" href="riseCampaign" @onclick="closeSubMenu">
+                                    <span class="fas fa-dice-d20" aria-hidden="true"></span> Rise of the World Killers
+                                </NavLink>
+                            </li>
+                            <li class="nav-item">
+                                <NavLink class="nav-link" href="wreckersCampaign" @onclick="closeSubMenu">
+                                    <span class="fas fa-dice-d20" aria-hidden="true"></span> First Stand of the Wreckers
+                                </NavLink>
+                            </li>
+                            <li class="nav-item">
+                                <NavLink class="nav-link" href="dndPlayers" @onclick="closeSubMenu">
+                                    <span class="fas fa-dice-d20" aria-hidden="true"></span> Players
+                                </NavLink>
+                            </li>
+                        </ul>
+                    }
+                    </div>
                 </li>
                 <li class="nav-item">
                     <NavLink class="nav-link" href="https://www.patreon.com/user?u=72112451&fan_landing=true">
@@ -23,39 +61,8 @@
                     </NavLink>
                 </li>
                 <li class="nav-item">
-                    <NavLink class="nav-link disabled" href="">
-                        <span class="fas fa-arrow-right" aria-hidden="true"></span> Content:
-                    </NavLink>
-                </li>
-                <li class="nav-item">
-                    <NavLink class="nav-link" href="swervesArchive">
-                        <span class="fas fa-book-open" aria-hidden="true"></span> IDW 2005 Comics
-                    </NavLink>
-                </li>
-                <li class="nav-item dropdown">
-                    <NavLink class="nav-link" @onclick="()=>expandSubMenu= !expandSubMenu">
-                        Transformers DND
-                        <i class="fa fa-caret-down"></i>
-                    </NavLink>
-                    @if (expandSubMenu)
-                    {
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <NavLink class="nav-link" href="dndArchive" @onclick="()=>expandSubMenu= !expandSubMenu">
-                                    <span class="fas fa-dice-d20" aria-hidden="true"></span> DND Campaigns
-                                </NavLink>
-                            </li>
-                            <li class="nav-item">
-                                <NavLink class="nav-link" href="dndCharacters" @onclick="()=>expandSubMenu= !expandSubMenu">
-                                    <span class="fas fa-dice-d20" aria-hidden="true"></span> DND Characters
-                                </NavLink>
-                            </li>
-                        </ul>
-                    }
-                </li>
-                <li class="nav-item">
-                    <NavLink class="nav-link" href="crossOver">
-                        <span class="fas fa-exchange-alt" aria-hidden="true"></span> Cross Overs
+                    <NavLink class="nav-link" href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=500570">
+                        <span class="fas fa-gift" aria-hidden="true"></span> extraLife
                     </NavLink>
                 </li>
             </ul>
@@ -75,13 +82,25 @@
 </nav>
 @code {
     private bool collapseNavMenu = true;
-    private bool expandSubMenu;//add
+    private bool expandSubMenu;
     private string NavBarCssClass => collapseNavMenu ? null : "show";
     private string NavButtonCssClass => collapseNavMenu ? "collapsed" : null;
 
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
+    }
+
+    private void openSubMenu()
+    {
+        expandSubMenu = !expandSubMenu;
+        collapseNavMenu = true;
+    }
+
+    private void closeSubMenu()
+    {
+        expandSubMenu = !expandSubMenu;
+        collapseNavMenu = true;
     }
 
 }

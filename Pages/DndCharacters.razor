@@ -2,29 +2,39 @@
 @inject HttpClient Http
 
 <style>
+    h1.page-header {
+        font-size: 300%;
+    }
+
     .phase {
         margin-top: 20px;
         text-align: center;
     }
 
-    .column {
-        width: auto;
-        float: left;
-        margin-left: 20px;
-        padding: 10px;
+    .row {
+        margin-right: 10%;
+        margin-left: 10%;
+        max-width: 90%;
+        font-size: x-large;
     }
 
-    ul {
-        text-align: center;
+    img {
+        width: 500px;
+        height: 500px;
+        max-width: 90%;
+        max-height: 90%;
+        object-fit: contain;
+        margin-top: 5%;
+        margin-left: auto;
+        background-color: lightblue;
     }
 
-    #links {
-        text-align: center;
+    .right {
+        padding-top: 7%;
     }
 
 </style>
 
-<h1 class="page-header">DND Characters</h1>
 <div>
 
     @*hyperlinks to campaigns*@
@@ -36,27 +46,41 @@
         }
         else
         {
+            <div class="row">
             @foreach(var character in characters)
             {
                 @if(character.Name == characterName)
                 {
+                    <h1 class="page-header">@character.Name</h1>
                     <div class="column left">
-                        <img src=@character.Image class="d-block img-fluid" alt=@character.Name/>
+                        <img src=@character.Image alt=@character.Name/>
                     </div>
                     <div class="column right">
-                        <p><b>Character Name: </b>@character.Name</p>
                         <p><b>Player Name: </b>@character.Player</p>
                         <p><b>Character Alt Mode & Color: </b>@character.Alt_Mode</p>
                         <p><b>Character Class: </b> @character.Class</p>
                         <p><b>Character Affiliation: </b>@character.Affiliation</p>
                         <p><b>Character Description: </b>@character.Description</p>
-                        <p><b>Featured Campaigns: </b><a href="dndArchive#@character.Campaigns" target="_top">@character.Campaigns</a></p>
+                        <p><b>Art By: </b> @character.Art_By</p>
+                        @if (character.Campaigns.ToLower() == "rise of the world killers")
+                        {
+                            <p><b>Featured Campaigns: </b><a href="riseCampaign" target="_top">@character.Campaigns</a></p>
+                        }else if(character.Campaigns.ToLower() == "first stand of the wreckers"){
+                            <p><b>Featured Campaigns: </b><a href="wreckersCampaign" target="_top">@character.Campaigns</a></p>
+                        }else{
+                            Console.WriteLine("No page for that campaign yet.");
+                        }
+                        
                     </div>
+                }
+                else
+                {
+                    Console.WriteLine("Character Info on another page.");
                 }
 
             }
+            </div>
         }
-        
     </div>
 </div>
 
@@ -64,11 +88,17 @@
     private DndCharacterInfo[] characters;
     [Parameter]
     public string characterName { get; set; }
-    
+
 
     protected override async Task OnInitializedAsync()
     {
-        characters = await Http.GetFromJsonAsync<DndCharacterInfo[]>("/dnd-characters/characters.json");
+        try{
+            characters = await Http.GetFromJsonAsync<DndCharacterInfo[]>("/dnd-characters/characters.json");
+        }
+        catch(Exception e)
+        {
+            Console.Write("Character.json file not found",e);
+        }
     }
 
     public class DndCharacterInfo
@@ -81,5 +111,6 @@
         public string Description { get; set; }
         public string Campaigns { get; set; }
         public string Image { get; set; }
+        public string Art_By { get; set; }
     }
 }
