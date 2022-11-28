@@ -99,6 +99,21 @@
                     }
                 </ul>
             }
+
+            <h5><b>Players:</b></h5>
+            @if (playerNames == null)
+            {
+                <p>No Characters</p>
+            }
+            else
+            {
+                <ul>
+                    @foreach (var player in playerNames)
+                    {
+                        <li><a href="/dndPlayers/@player">@player</a></li>
+                    }
+                </ul>
+            }
             <p><b>Check out the campaign two <a href="https://www.youtube.com/playlist?list=PLLmXgUDj_Nw_f2G4WzDAG9oGKVEbx-pkB" target="_blank">here</a>.</b></p>
         </div>
     </div>
@@ -106,18 +121,22 @@
 
 @code {
     private DndCharacterInfo[] characters;
+    private string[] playerNames;
     private string characterName { get; set; }
+    private string playerName { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
         try
         {
             characters = await Http.GetFromJsonAsync<DndCharacterInfo[]>("/dnd-characters/characters.json");
-        }catch(Exception e)
+            playerNames = UniquePlayerNames(characters);
+        }
+        catch (Exception e)
         {
             Console.WriteLine("Json file not found", e);
         }
-        
+
     }
 
     public class DndCharacterInfo
@@ -130,6 +149,24 @@
         public string Description { get; set; }
         public string Campaigns { get; set; }
         public string Image { get; set; }
+    }
+
+    public static String[] UniquePlayerNames(DndCharacterInfo[] chars)
+    {
+        var names = new List<String>();
+        foreach (var character in chars)
+        {
+            if (character.Campaigns.ToLower() == "first stand of the wreckers")
+            {
+                names.Add(character.Player);
+            }
+            else
+            {
+                Console.WriteLine("No Players...");
+            }
+
+        }
+        return names.Distinct().ToArray();
     }
 }
 
