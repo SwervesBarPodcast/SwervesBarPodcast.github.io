@@ -1,6 +1,5 @@
-﻿@page "/dndPlayers/"
+﻿@page "/dndPlayers/{playerName}"
 @inject HttpClient Http
-@inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
 
 <style>
     h1.page-header {
@@ -19,7 +18,6 @@
         margin-top: 2%;
         max-width: 90%;
         font-size: large;
-        border-bottom: solid 3px black;
     }
 
     img {
@@ -35,8 +33,6 @@
 
 </style>
 
-<h1 class="page-header">Players:</h1>
-
 
 @*hyperlinks to campaigns*@
 
@@ -50,78 +46,85 @@
 
         @foreach (var player in players)
         {
-            <div class="row">
-                <div class="col-lg col-md col-sm left">
-                    <img src=@player.Image alt=@player.Player_Name />
+            if (player.Player_Name == playerName)
+            {
+                <div class="row"><h1 class="page-header">@player.Player_Name</h1></div>
+                <div class="row">
+                    <div class="col-lg col-md col-sm left">
+                        <img src=@player.Image alt=@player.Player_Name />
+                    </div>
+                    <div class="col-lg col-md col-sm right">
+                        <p><b>Favorite Show: </b>@player.Show</p>
+                        @if (player.Book_Comic != "")
+                        {
+                            <p><b>Favorite Comic or Book: </b>@player.Book_Comic</p>
+                        }
+                        else
+                        {
+                            <p><b>Favorite Comic or Book: </b>Information coming soon...</p>
+                        }
+                        @if (player.Favorite_Character != "")
+                        {
+                            <p><b>Favorite Characters: </b>@player.Favorite_Character</p>
+
+                        }
+                        else
+                        {
+                            <p><b>Favorite Characters: </b>Information coming soon...</p>
+                        }
+                        @if (player.Descriptions != "")
+                        {
+                            <p><b>Description: </b> @player.Descriptions</p>
+
+                        }
+                        else
+                        {
+                            <p><b>Description: </b>Information coming soon...</p>
+                        }
+                        <p><b>Characters: </b></p>
+                        @foreach (var character in player.Characters)
+                        {
+                            Console.WriteLine(character.Name);
+                            <p>&emsp; &emsp;<a href="/dndCharacters/@character.Name" target="_top">@character.Name</a></p>
+                        }
+                        @if (player.Social == "TBD")
+                        {
+                            <p><b>Players Social Media Links: </b>@player.Social</p>
+                        }else if (player.Social != "")
+                        {
+                            <p><b>Players Social Media Links: </b><a href="@player.Social">@player.Social</a></p>
+                        }
+                        else
+                        {
+                            <p><b>Players Social Media Links: </b>Information coming soon...</p>
+                        }
+                        <p><b>Art By: </b> @player.Art_By</p>
+                    </div>
                 </div>
-                <div class="col-lg col-md col-sm right">
-                    <h2>@player.Player_Name</h2><br>
-                    <p><b>Favorite Show: </b>@player.Show</p>
-                    @if (player.Book_Comic != "")
-                    {
-                        <p><b>Favorite Comic or Book: </b>@player.Book_Comic</p>
-                    }
-                    else
-                    {
-                        <p><b>Favorite Comic or Book: </b>Information coming soon...</p>
-                    }
-                    @if (player.Favorite_Character != "")
-                    {
-                        <p><b>Favorite Characters: </b>@player.Favorite_Character</p>
-
-                    }
-                    else
-                    {
-                        <p><b>Favorite Characters: </b>Information coming soon...</p>
-                    }
-                    @if (player.Descriptions != "")
-                    {
-                        <p><b>Description: </b> @player.Descriptions</p>
-
-                    }
-                    else
-                    {
-                        <p><b>Description: </b>Information coming soon...</p>
-                    }
-                    <p><b>Characters: </b></p>
-                    @foreach (var character in player.Characters)
-                    {
-                        Console.WriteLine(character.Name);
-                        <p>&emsp; &emsp;<a href="/dndCharacters/@character.Name" target="_top">@character.Name</a></p>
-                    }
-                    @if (player.Social != "")
-                    {
-                        <p><b>Players Social Media Links: </b><a href="@player.Social">@player.Social</a></p>
-
-                    }
-                    else
-                    {
-                        <p><b>Players Social Media Links: </b>Information coming soon...</p>
-                    }
-                    <p><b>Art By: </b> @player.Art_By</p>
-                </div>
-            </div>
+            }
         }
     }
 </div>
 
 @code {
     private DndPlayerInfo[] players;
-    private string charName { get; set; }
+    [Parameter]
+    public string playerName { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
         try
         {
             players = await Http.GetFromJsonAsync<DndPlayerInfo[]>("/dnd-players/players.json");
-        }catch(Exception e)
+        }
+        catch (Exception e)
         {
             Console.WriteLine("Json file not found", e);
         }
-        
+
     }
 
-    public class CharacterName
+    public class CharacterNames
     {
         public string Name { get; set; }
     }
@@ -133,7 +136,7 @@
         public string Show { get; set; }
         public string Book_Comic { get; set; }
         public string Favorite_Character { get; set; }
-        public List<CharacterName> Characters { get; set; }
+        public List<CharacterNames> Characters { get; set; }
         public string Social { get; set; }
         public string Image { get; set; }
         public string Art_By { get; set; }

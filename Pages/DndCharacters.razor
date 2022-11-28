@@ -1,5 +1,6 @@
 ﻿@page "/dndCharacters/{characterName}"
 @inject HttpClient Http
+@inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
 
 <style>
     h1.page-header {
@@ -57,7 +58,7 @@
                         <img src=@character.Image alt=@character.Name/>
                     </div>
                     <div class="col-lg col-md col-sm right">
-                        <p><b>Player Name: </b>@character.Player</p>
+                        <p><b>Player Name: </b><a href="/dndPlayers/@character.Player">@character.Player</a></p>
                         <p><b>Character Alt Mode & Color: </b>@character.Alt_Mode</p>
                         <p><b>Character Class: </b> @character.Class</p>
                         <p><b>Character Affiliation: </b>@character.Affiliation</p>
