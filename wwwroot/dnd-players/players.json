@@ -66,5 +66,19 @@
     "Social": "https://hexamisart.carrd.co/",
     "Image": "/images/Hexamis.png",
     "Art_By": "Hexamis"
+  },
+  {
+    "Player_Name": "Clickbait",
+    "Descriptions": "The first Transformers show I remember watching is Transformers Animated, but I didn’t get interested in Transformers until the live action movies. I remember going to see Revenge of The Fallen in theaters and loving it, but it wasn’t until I saw DOTM that I wanted to know more, and stumbled upon TFP, right as the second season was out, and I was HOOKED! After that, it just snowballed until I got to the TF fan that I am today!",
+    "Show": "Transformers Prime: This is hands down my favorite Transformers show. I adore every aspect of it, from the characters, to the cast, to the lore, and even the soundtrack. I loved that the show was made up of a smaller core cast that allowed each character to be developed and go through their own challenges and growths, and that they weren’t afraid to embrace the darker side of Transformers.",
+    "Book_Comic": "Transformers Exodus! It’s my favorite for a LOT of reasons, but it’s a well-written, descriptive masterpiece. I love that it has an overarching point of view that is supplemented by alternating between various characters’ point of view (primarily Optimus and Megatron). The book also doesn’t shy away from illustrating what war looks like, and the way it effects every part of a civilization and every stage.",
+    "Favorite_Character": "The short, cliche answer? Optimus Prime. He’s a father figure I’ve looked up to forever, and who doesn’t love the main good guy? But if we’re going a little deeper, Predaking; in particular the Prime universe Predaking. I really relate to the character and his depth, he was plopped into a bad situation he had no control over, and had to go on a journey of self-discovery to find out who he truly was, and that he was so much more than anyone had ever told him he could be.",
+    "Characters": [
+      { "Name": "Mantyx" },
+      { "Name": "Allegory" }
+    ],
+    "Social": "TBD",
+    "Image": "/images/Clickbait_ArtByHexamis.png",
+    "Art_By": "Hexamis"
   }
 ]

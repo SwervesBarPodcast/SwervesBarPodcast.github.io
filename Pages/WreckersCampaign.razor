@@ -92,9 +92,12 @@
                 <ul>
                     @foreach (var character in characters)
                     {
-                        if (character.Campaigns.ToLower() == "first stand of the wreckers")
+                        @foreach (var campaign in character.Campaigns)
                         {
-                            <li><a href="/dndCharacters/@character.Name">@character.Name</a></li>
+                            @if (campaign.Name.ToLower() == "first stand of the wreckers")
+                            {
+                                <li><a href="/dndCharacters/@character.Name">@character.Name</a></li>
+                            }
                         }
                     }
                 </ul>
@@ -103,7 +106,7 @@
             <h5><b>Players:</b></h5>
             @if (playerNames == null)
             {
-                <p>No Characters</p>
+                <p>No Players</p>
             }
             else
             {
@@ -114,7 +117,7 @@
                     }
                 </ul>
             }
-            <p><b>Check out the campaign two <a href="https://www.youtube.com/playlist?list=PLLmXgUDj_Nw_f2G4WzDAG9oGKVEbx-pkB" target="_blank">here</a>.</b></p>
+            <p><b>Check out campaign two on <a href="https://www.youtube.com/playlist?list=PLLmXgUDj_Nw_f2G4WzDAG9oGKVEbx-pkB" target="_blank">Youtube</a>.</b></p>
         </div>
     </div>
 </div>
@@ -139,6 +142,11 @@
 
     }
 
+    public class DndCampaign
+    {
+        public string Name { get; set; }
+    }
+
     public class DndCharacterInfo
     {
         public string Name { get; set; }
@@ -147,26 +155,32 @@
         public string Class { get; set; }
         public string Affiliation { get; set; }
         public string Description { get; set; }
-        public string Campaigns { get; set; }
+        public List<DndCampaign> Campaigns { get; set; }
         public string Image { get; set; }
     }
 
     public static String[] UniquePlayerNames(DndCharacterInfo[] chars)
     {
+
         var names = new List<String>();
         foreach (var character in chars)
         {
-            if (character.Campaigns.ToLower() == "first stand of the wreckers")
+            foreach (var campaign in character.Campaigns)
             {
-                names.Add(character.Player);
+                if (campaign.Name.ToLower() == "first stand of the wreckers")
+                {
+                    names.Add(character.Player);
+                }
+                else
+                {
+                    Console.WriteLine(character.Player);
+                }
             }
-            else
-            {
-                Console.WriteLine("No Players...");
-            }
-
         }
         return names.Distinct().ToArray();
+
+
+
     }
 }
 

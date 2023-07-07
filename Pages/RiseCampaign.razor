@@ -95,10 +95,12 @@
 
                 @foreach (var character in characters)
                 {
-
-                    if (character.Campaigns.ToLower() == "rise of the world killers")
+                    @foreach(var campaign in character.Campaigns)
                     {
-                        <li><a href="/dndCharacters/@character.Name">@character.Name</a></li>
+                        if (campaign.Name.ToLower() == "rise of the world killers")
+                        {
+                            <li><a href="/dndCharacters/@character.Name">@character.Name</a></li>
+                        }
                     }
                 }
             </ul>
@@ -121,7 +123,7 @@
             </ul>
         }
 
-        <p><b>Check out the campaign one <a href="https://www.youtube.com/playlist?list=PLLmXgUDj_Nw_yW3GwbyAjmU4yxLXN2G6m" target="_blank">here</a>.</b></p>
+        <p><b>Check out campaign one on <a href="https://www.youtube.com/playlist?list=PLLmXgUDj_Nw_yW3GwbyAjmU4yxLXN2G6m" target="_blank">Youtube</a>.</b></p>
     </div>
 
 </div>
@@ -146,6 +148,10 @@
 
     }
 
+    public class DndCampagin
+    {
+        public string Name { get; set; }
+    }
 
     public class DndCharacterInfo
     {
@@ -155,7 +161,7 @@
         public string Class { get; set; }
         public string Affiliation { get; set; }
         public string Description { get; set; }
-        public string Campaigns { get; set; }
+        public List<DndCampagin> Campaigns { get; set; }
         public string Image { get; set; }
     }
 
@@ -164,15 +170,17 @@
         var names = new List<String>();
         foreach (var character in chars)
         {
-            if (character.Campaigns.ToLower() == "rise of the world killers")
+            foreach(var campaign in character.Campaigns)
             {
-                names.Add(character.Player);
+                if (campaign.Name.ToLower() == "rise of the world killers")
+                {
+                    names.Add(character.Player);
+                }
+                else
+                {
+                    Console.WriteLine("No Players...");
+                }
             }
-            else
-            {
-                Console.WriteLine("No Players...");
-            }
-            
         }
         return names.Distinct().ToArray();
     }

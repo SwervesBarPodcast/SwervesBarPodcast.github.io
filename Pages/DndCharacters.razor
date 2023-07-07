@@ -42,45 +42,63 @@
     @*hyperlinks to campaigns*@
 
     <div>
-        @if(characters == null)
+        @if (characters == null)
         {
             <p>Loading...</p>
         }
         else
         {
             <div class="row">
-            @foreach(var character in characters)
-            {
-                @if(character.Name == characterName)
+                @foreach (var character in characters)
                 {
-                    <h1 class="page-header">@character.Name</h1>
-                    <div class="col-lg col-md col-sm left">
-                        <img src=@character.Image alt=@character.Name/>
-                    </div>
-                    <div class="col-lg col-md col-sm right">
-                        <p><b>Player Name: </b><a href="/dndPlayers/@character.Player">@character.Player</a></p>
-                        <p><b>Character Alt Mode & Color: </b>@character.Alt_Mode</p>
-                        <p><b>Character Class: </b> @character.Class</p>
-                        <p><b>Character Affiliation: </b>@character.Affiliation</p>
-                        <p><b>Character Description: </b>@character.Description</p>
-                        <p><b>Art By: </b> @character.Art_By</p>
-                        @if (character.Campaigns.ToLower() == "rise of the world killers")
-                        {
-                            <p><b>Featured Campaigns: </b><a href="riseCampaign" target="_top">@character.Campaigns</a></p>
-                        }else if(character.Campaigns.ToLower() == "first stand of the wreckers"){
-                            <p><b>Featured Campaigns: </b><a href="wreckersCampaign" target="_top">@character.Campaigns</a></p>
-                        }else{
-                            Console.WriteLine("No page for that campaign yet.");
-                        }
-                        
-                    </div>
-                }
-                else
-                {
-                    Console.WriteLine("Character Info on another page.");
-                }
+                    @if (character.Name == characterName)
+                    {
+                        <h1 class="page-header">@character.Name</h1>
+                        <div class="col-lg col-md col-sm left">
+                            <img src=@character.Image alt=@character.Name />
+                        </div>
+                        <div class="col-lg col-md col-sm right">
+                            <p><b>Player Name: </b><a href="/dndPlayers/@character.Player">@character.Player</a></p>
+                            <p><b>Character Alt Mode & Color: </b>@character.Alt_Mode</p>
+                            <p><b>Character Class: </b> @character.Class</p>
+                            <p><b>Character Affiliation: </b>@character.Affiliation</p>
+                            <p><b>Character Description: </b>@character.Description</p>
+                            <p><b>Art By: </b> @character.Art_By</p>
+                            <p>Featured Campaigns:</p>
 
-            }
+                            @if (character.Campaigns != null)
+                            {
+                                <ul>
+                                    @foreach (var campaign in character.Campaigns)
+                                    {
+                                        @if (campaign.Name == "Rise of the World Killers")
+                                        {
+                                            <li><a href="riseCampaign" target="_top">@campaign.Name</a></li>
+                                        }
+                                        else if (campaign.Name == "First Stand Of The Wreckers")
+                                        {
+                                            <li><a href="wreckersCampaign" target="_top">@campaign.Name</a></li>
+                                        }
+                                        else if (campaign.Name == "Eons")
+                                        {
+                                            <li><a href="eonsCampaign" target="_top">@campaign.Name</a></li>
+                                        }
+
+                                    }
+                                </ul>
+                            }
+                            else
+                            {
+                                <p>"No page for that campaign yet."</p>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        Console.WriteLine("Character Info on another page.");
+                    }
+
+                }
             </div>
         }
     </div>
@@ -97,11 +115,17 @@
         try
         {
             characters = await Http.GetFromJsonAsync<DndCharacterInfo[]>("/dnd-characters/characters.json");
-        }catch(Exception e)
+        }
+        catch (Exception e)
         {
             Console.WriteLine("Json file not found", e);
         }
-        
+
+    }
+
+    public class DndCampaign
+    {
+        public string Name { get; set; }
     }
 
     public class DndCharacterInfo
@@ -112,8 +136,10 @@
         public string Class { get; set; }
         public string Affiliation { get; set; }
         public string Description { get; set; }
-        public string Campaigns { get; set; }
+        public List<DndCampaign> Campaigns { get; set; }
         public string Image { get; set; }
         public string Art_By { get; set; }
     }
+
+
 }

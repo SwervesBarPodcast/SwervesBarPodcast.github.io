@@ -12,20 +12,66 @@
                         <span class="oi oi-home" aria-hidden="true"></span> Home
                     </NavLink>
                 </li>
-                @*<li class="nav-item">
-                    <NavLink class="nav-link" href="guests">
-                        <span class="fas fa-users" aria-hidden="true"></span> Guests
+                <li class="nav-item dropdown">
+                    <NavLink class="nav-link" @onclick="openSubMenu" aria-controls="subMenu">
+                        Guests
+                        <i class="fa fa-caret-down"></i>
                     </NavLink>
-                </li>*@
-                <li class="nav-item">
+                    <div id="subMenu">
+                        @if (expandSubMenu)
+                        {
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <NavLink class="nav-link" href="podcast_guests" @onclick="closeSubMenu">
+                                        <span class="fas fa-user" aria-hidden="true"></span> Podcast Guests
+                                    </NavLink>
+                                </li>
+                                @*<li class="nav-item">
+                            <NavLink class="nav-link" href="DndGuests" @onclick="closeSubMenu">
+                            <span class="fas fa-dice-d20" aria-hidden="true"></span> Dnd Guests
+                            </NavLink>
+                            </li>*@
+                            </ul>
+                        }
+                    </div>
+                </li>
+                @*<li class="nav-item">
                     <NavLink class="nav-link" href="swervesArchive">
                         <span class="fas fa-book-open" aria-hidden="true"></span> IDW 2005 Comics
                     </NavLink>
+                </li>*@
+                <li class="nav-item dropdown">
+                    <NavLink class="nav-link" @onclick="openSubMenu" aria-controls="subMenu">
+                        Comics
+                        <i class="fa fa-caret-down"></i>
+                    </NavLink>
+                    <div id="subMenu">
+                        @if (expandSubMenu)
+                        {
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <NavLink class="nav-link" href="idw-2005" @onclick="closeSubMenu">
+                                        <span class="fas fa-user" aria-hidden="true"></span> IDW 2005
+                                    </NavLink>
+                                </li>
+                                <li class="nav-item">
+                                    <NavLink class="nav-link" href="idw-2019" @onclick="closeSubMenu">
+                                        <span class="fas fa-user" aria-hidden="true"></span> IDW 2019
+                                    </NavLink>
+                                </li>
+                                @*<li class="nav-item">
+                            <NavLink class="nav-link" href="DndGuests" @onclick="closeSubMenu">
+                            <span class="fas fa-dice-d20" aria-hidden="true"></span> Dnd Guests
+                            </NavLink>
+                            </li>*@
+                            </ul>
+                        }
+                    </div>
                 </li>
                 @*<li class="nav-item">
-                    <NavLink class="nav-link" href="crossOver">
-                        <span class="fas fa-exchange-alt" aria-hidden="true"></span> Cross Overs
-                    </NavLink>
+                <NavLink class="nav-link" href="crossOver">
+                <span class="fas fa-exchange-alt" aria-hidden="true"></span> Cross Overs
+                </NavLink>
                 </li>*@
                 <li class="nav-item dropdown">
                     <NavLink class="nav-link" @onclick="openSubMenu" aria-controls="subMenu">
@@ -34,20 +80,25 @@
                     </NavLink>
                     <div id="subMenu">
                         @if (expandSubMenu)
-                    {
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <NavLink class="nav-link" href="riseCampaign" @onclick="closeSubMenu">
-                                    <span class="fas fa-dice-d20" aria-hidden="true"></span> Rise of the World Killers
-                                </NavLink>
-                            </li>
-                            <li class="nav-item">
-                                <NavLink class="nav-link" href="wreckersCampaign" @onclick="closeSubMenu">
-                                    <span class="fas fa-dice-d20" aria-hidden="true"></span> First Stand of the Wreckers
-                                </NavLink>
-                            </li>
-                        </ul>
-                    }
+                        {
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <NavLink class="nav-link" href="riseCampaign" @onclick="closeSubMenu">
+                                        <span class="fas fa-dice-d20" aria-hidden="true"></span> Rise of the World Killers
+                                    </NavLink>
+                                </li>
+                                <li class="nav-item">
+                                    <NavLink class="nav-link" href="wreckersCampaign" @onclick="closeSubMenu">
+                                        <span class="fas fa-dice-d20" aria-hidden="true"></span> First Stand of the Wreckers
+                                    </NavLink>
+                                </li>
+                                <li class="nav-item">
+                                    <NavLink class="nav-link" href="eonsCampaign" @onclick="closeSubMenu">
+                                        <span class="fas fa-dice-d20" aria-hidden="true"></span> Eons
+                                    </NavLink>
+                                </li>
+                            </ul>
+                        }
                     </div>
                 </li>
                 <li class="nav-item">
