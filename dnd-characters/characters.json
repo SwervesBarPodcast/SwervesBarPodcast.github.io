@@ -8,7 +8,7 @@
     "Description": "A loyal Decepticon for many years, Mantyx was a member of the Seeker Armada under Commander Starscream. Mantyx was trained by Starscream in the arts of surveillance and espionage, and served as a go-to assassin for the Decepticons. Sent on a high-priority mission by Megatron, Mantyx journeyed off into the galaxy with his close friend Arromak.",
     "Campaigns": [
       { "Name": "Rise of the World Killers" },
-      { "Name": "eons" }
+      { "Name": "Eons" }
     ],
     "Image": "/images/mantyxPoster_ArtByHexamis.png",
     "Art_By": "Hexamis"
@@ -22,7 +22,7 @@
     "Description": "",
     "Campaigns": [
       { "Name": "First Stand Of The Wreckers" },
-      { "Name": "eons" }
+      { "Name": "Eons" }
     ],
     "Image": "/images/Allegory_ArtByOnyx.png",
     "Art_By": "Onyx"
@@ -61,7 +61,7 @@
     "Affiliation": "None",
     "Description": "After losing his friends at the hand of shockwave he was recruited and saved by the Primus Vanguard. He joined the Vanguard as the Orange Prime of inner and personal change. He is a Prime, leader type, he is 22ft tall and follows solus prime.",
     "Campaigns": [
-      { "Name": "eons" }
+      { "Name": "Eons" }
     ],
     "Image": "/images/stormburstPosterOrange.png",
     "Art_By": "Hexamis"
@@ -75,7 +75,7 @@
     "Description": "Grease is a repo bot mob boss who wants to gain power amongst the decepticon ranks so he can expand his business. Type Mini-con, class scavenger, size 5ft tall, religion amalgamous prime.",
     "Campaigns": [
       { "Name": "Rise of the World Killers" },
-      { "Name": "eons" }
+      { "Name": "Eons" }
     ],
     "Image": "/images/grease.png",
     "Art_By": "Hexamis"
@@ -89,7 +89,7 @@
     "Description": "Smolder is a 5 foot tall Insecticon who idolizes Starscream. His dream was to one day become a Seeker, but with his more animal-like alt. mode, such a dream was unrealistic. Smolder is incredibly loyal and would give his life for those he cares for. He is a Beast type with a Mutant class.",
     "Campaigns": [
       { "Name": "Rise of the World Killers" },
-      { "Name": "eons" }
+      { "Name": "Eons" }
     ],
     "Image": "/images/smolder.png",
     "Art_By": "Hexamis"
@@ -130,9 +130,22 @@
     "Description": "Scorchfire Prime is bold, a little brash, and quick to make friends, as well as defend them. It's easier for her to go with the flow, unless it's some outlandish scheme Zephyr has cooked up. Although Primus is her religion, she's not overly religious. Worked as a mechanic before getting drafted into the war as an Autobot, sometimes fixing up ships and other times in the front lines where she met her mentor Sidewinder. Also a Knockout simp, thinks no one knows, but everyone knows. 18 ft as a prime, compact, and a scout!",
     "Campaigns": [
       { "Name": "Rise of the World Killers" },
-      { "Name": "eons" }
+      { "Name": "Eons" }
     ],
     "Image": "/images/Scorchfire_ArtByHexamis.png",
+    "Art_By": "Hexamis"
+  },
+  {
+    "Name": "Scorchimus",
+    "Player": "Onyx",
+    "Alt_Mode": "Flaming red sport car with red flames",
+    "Class": "Hunter/Prime",
+    "Affiliation": "Shattered Glass Autobot",
+    "Description": "Scorchimus is a different take on a familiar face we all know and love. He is a gender bent, shattered glass version of Scorchfire Prime. He carries a dark secret and hopes to still have time to fix things before they get out of hand. On his home world he was a model and rised through the ranks of the army before being accepted as the new apprentice to Nova Prime. 18 ft as a prime, compact, and a hunter!",
+    "Campaigns": [
+      { "Name": "Eons" }
+    ],
+    "Image": "/images/Scorchimus_Stance.jpg",
     "Art_By": "Hexamis"
   },
   {
@@ -144,7 +157,7 @@
     "Description": "Synthwave goes nowhere without her twin, Cross Summit. She loves to play music and one day hopes to open a club and DJ, but is currently working as a Rescue Bot! She's not great at it but tries her best! follows Amalgamous Prime, 22 ft, compact, and a city speaker.",
     "Campaigns": [
       { "Name": "First Stand Of The Wreckers" },
-      { "Name": "eons" }
+      { "Name": "Eons" }
     ],
     "Image": "/images/synthwave.jpg",
     "Art_By": "Hexamis"
@@ -171,7 +184,7 @@
     "Description": "Zephyr is an egotistical short bot that had once a prolific military contracting business, and is now a galactic bounty hunter. During the rise of the Decepticon revolution, he was part of a terrorist attack. The board members were quick to replace him and label him as dead. He is a follower of Liege Maximo, though not a fanatic. He is a titan-master, and when transformed into his head-mode he looks like Roadbuster. His coloration is all black with purple highlights; he takes advantage of his short stature to be as sneaky as possible.",
     "Campaigns": [
       { "Name": "Rise of the World Killers" },
-      { "Name": "eons" }
+      { "Name": "Eons" }
     ],
     "Image": "/images/zephyrPoster.png",
     "Art_By": "Hexamis"
