@@ -8,6 +8,7 @@
     "Characters": [
       { "Name": "Eightwheeler" },
       { "Name": "Stratostorm" },
+      { "Name": "Stormburst Convoy" },
       { "Name": "Grease" }
     ],
     "Social": "https://www.twitch.tv/killobyteprime",
@@ -20,7 +21,10 @@
     "Show": "Robots in Disguise (2001)",
     "Book_Comic": "MTMTE & Lost Light",
     "Favorite_Character": "Grimlock from all continuity because he is the bestest boi! The DJD from the IDW comics. Favorite toy gimmick is the combiners!",
-    "Characters": [ { "Name": "Cross Summit" } ],
+    "Characters": [
+      { "Name": "Cross Summit" },
+      { "Name": "Scorchimus" }
+    ],
     "Social": "TBD",
     "Image": "/images/Onyx_ArtByKusa.png",
     "Art_By": "Kusa"
@@ -61,6 +65,7 @@
     "Favorite_Character": "Knockout, Transformers Prime: I love him. I love his character as a doctor who’s obsessed with himself, a Decepticon but has a ground based vehicle. It’s just very out there and different and his design is just really lovely. He’s got all the confidence I wished I had!",
     "Characters": [
       { "Name": "Spitfire" },
+      { "Name": "Synthwave" },
       { "Name": "ScorchFire Prime" }
     ],
     "Social": "https://hexamisart.carrd.co/",
@@ -80,5 +85,18 @@
     "Social": "TBD",
     "Image": "/images/Clickbait_ArtByHexamis.png",
     "Art_By": "Hexamis"
+  },
+  {
+    "Player_Name": "Celeste",
+    "Descriptions": " I was first introduced to Transformers thanks to my grandmother. She used to record in VHS tapes any cartoon series that would show up on TV and send them to us. So 6 years after I was born I found a vhs recording of the  Generation 1 Transformers  vhs tape she had sent to my brothers in the 80's. Bless her soul when I asked her for another VHS she had found for some reason a French Dub copy of the film I had lost 2 years later. But  grew up believing it was a Spanish dub until my mother corrected me recently.",
+    "Show": "Tie between Transformers Animated and Transformers Prime. Both shows I enjoyed them at the different stages of my life. Animation, voice acting and character design. But I must admit, the show I keep rewatching  is Transformers Animated. Even while working on other projects I play my favorite episodes in the background. I never get tired of this series.",
+    "Book_Comic": "TBD",
+    "Favorite_Character": " Ultra Magnus from Transformers Animated. Not Prime or IDW comics. Its the one from Transformers Animated and I do adore when my friends tag me or share art with me of that SPECIFIC Ultra Magnus.  Old Robot Man.",
+    "Characters": [
+      { "Name": "Domina" }
+    ],
+    "Social": "https://celestedoodles.weebly.com/",
+    "Image": "/images/CelesteImage.png",
+    "Art_By": "Celeste"
   }
 ]
