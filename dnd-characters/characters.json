@@ -103,7 +103,7 @@
     "Description": "FrostFang is a bot from the Maximal and Predacon colonies who is on the hunt for the group that kidnapped one of their politicians. She stands at 30 feet tall, though her horns technically make her a little bit taller. She can be a bit particular about showing herself off to the world, as she's ashamed of her rather bizarre frame and alt. mode, so she tends to wear a cloak when out and about. Her type is Beast, which is reflected in her alt. mode, and her class is a Hunter.",
     "Campaigns": [
       { "Name": "First Stand Of The Wreckers" },
-      { "Name": "eons" }
+      { "Name": "Eons" }
     ],
     "Image": "/images/Frost_Fang.png",
     "Art_By": "Onyx"
@@ -210,7 +210,7 @@
     "Affiliation": "None",
     "Description": "A character out of time and space, traveling the multiverse to help stop end of the world events.",
     "Campaigns": [
-      { "Name": "eons" }
+      { "Name": "Eons" }
     ],
     "Image": "/images/Domina.png",
     "Art_By": "Celeste"
@@ -223,7 +223,7 @@
     "Affiliation": "Autobot",
     "Description": "The best Autobot sniper there is, currently on the hunt to find all the ancient Prime Artifacts to keep them from falling into the wrong hands.",
     "Campaigns": [
-      { "Name": "eons" }
+      { "Name": "Eons" }
     ],
     "Image": "/images/Elita1Thumbnail.png",
     "Art_By": "Hexamis"
