@@ -78,6 +78,19 @@ ul.social-icons {
 #facebookNav:hover {
     background-color: #3d5b99;
 }
+#tumblrNav{
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: var(--secondary-500);
+}
+
+    #tumblrNav:hover {
+        background-color: #3d5b99;
+    }
 #twitterNav {
     padding:10px 12px;
     -o-transition:.5s;
@@ -114,6 +127,20 @@ ul.social-icons {
 #youtubeNav:hover {
     background-color: #e64a41;
 }
+#tiktokNav {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: var(--secondary-500);
+}
+
+    #tiktokNav:hover {
+        background-color: #e64a41;
+    }
+
 *, ::after, ::before {
     box-sizing: unset !important; 
 }

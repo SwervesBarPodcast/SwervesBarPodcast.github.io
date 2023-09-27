@@ -227,5 +227,18 @@
     ],
     "Image": "/images/Elita1Thumbnail.png",
     "Art_By": "Hexamis"
+  },
+  {
+    "Name": "Starscream",
+    "Player": "Frank Todaro",
+    "Alt_Mode": "Cybertronian F-22 Silver, Red, and Blue fighter jet",
+    "Class": "Scientist",
+    "Affiliation": "Decepticon",
+    "Description": "The treacherous Decepticon High Air Commander and the greatest of the Seekers. He's famous not only for his incredible skill, but also for his limitless (and troublesome) schemes.",
+    "Campaigns": [
+      { "Name": "Rise of the World Killers" }
+    ],
+    "Image": "/images/Starscream.png",
+    "Art_By": "Hexamis"
   }
 ]
