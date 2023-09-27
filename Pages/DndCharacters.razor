@@ -58,7 +58,20 @@
                             <img src=@character.Image alt=@character.Name />
                         </div>
                         <div class="col-lg col-md col-sm right">
+                            @if (@character.Player == "Frank Todaro")
+                            {
+                                <p><b>Player Name: </b><a target="_blank" href="https://www.imdb.com/name/nm0865092/">@character.Player</a></p>
+
+                            }
+                            else if (@character.Player == "Linsay Rousseau") {
+                                <p><b>Player Name: </b><a target="_blank" href="https://www.imdb.com/name/nm3407619/">@character.Player</a></p>
+
+                            }
+                            else
+                            {
                             <p><b>Player Name: </b><a href="/dndPlayers/@character.Player">@character.Player</a></p>
+
+                            }
                             <p><b>Character Alt Mode & Color: </b>@character.Alt_Mode</p>
                             <p><b>Character Class: </b> @character.Class</p>
                             <p><b>Character Affiliation: </b>@character.Affiliation</p>
