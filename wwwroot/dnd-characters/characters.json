@@ -214,5 +214,18 @@
     ],
     "Image": "/images/Domina.png",
     "Art_By": "Celeste"
+  },
+  {
+    "Name": "Elita-1",
+    "Player": "Linsay Rousseau",
+    "Alt_Mode": "Cybertronian red sports car",
+    "Class": "Scout",
+    "Affiliation": "Autobot",
+    "Description": "The best Autobot sniper there is, currently on the hunt to find all the ancient Prime Artifacts to keep them from falling into the wrong hands.",
+    "Campaigns": [
+      { "Name": "eons" }
+    ],
+    "Image": "/images/Elita1Thumbnail.png",
+    "Art_By": "Hexamis"
   }
 ]
