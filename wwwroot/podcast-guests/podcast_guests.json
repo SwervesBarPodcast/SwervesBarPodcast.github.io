@@ -137,5 +137,31 @@
       { "Website": "http://bigbandrockparty.com/" },
       { "Facebook": "https://www.facebook.com/p/This-Aint-Your-Daddys-Big-Band-100063624574526/" }
     ]
+  },
+  {
+    "guestId": 14,
+    "name": "Andy Barnett",
+    "episode": "https://youtu.be/Pa3atl5E5RI?si=Q8MQrBX_Y2eARGrZ",
+    "description": "In this exciting Q&A episode we get to talk with the talented Andy Barnett, the voice of Rhinox in Transformers War For Cybertron.",
+    "Image": "/images/thumbnails/Andy.png",
+    "links": [
+      { "Instagram": "https://www.instagram.com/theandybarn..." },
+      { "Twitter": "https://twitter.com/TheAndyBarnett" },
+      { "Website": "https://www.andybarnett.com/" },
+      { "Youtube": "https://www.youtube.com/@AroundtheBoardShow" }
+    ]
+  },
+  {
+    "guestId": 15,
+    "name": "David Kaye",
+    "episode": "https://youtu.be/nPwP6wwdmMo?si=gMzEJj7UhF3jtxWP",
+    "description": "In this exciting Q&A episode we get to talk with the talented David Kaye, the voice of Megatron in Transformers Beast Wars, Megatron in  Transformers Armada and Optimus Prime in Transformers Animated .",
+    "Image": "/images/thumbnails/DavidKaye.png",
+    "links": [
+      { "Instagram": "https://www.instagram.com/dkayevo/" },
+      { "Twitter": "https://twitter.com/dkayevo" },
+      { "Website": "https://www.davidkaye.com/" },
+      { "Youtube": "https://www.youtube.com/channel/UCYzDZjxOZ4VTF6qFk2xK7Uw" }
+    ]
   }
 ]
