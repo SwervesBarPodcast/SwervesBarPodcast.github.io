@@ -1,50 +1,50 @@
-﻿.navbar{
-        background: var(--secondary-500);
+﻿.navbar {
+    background: var(--secondary-500);
 }
 /*.link-buttons{
     justify-content: center;
     text-align: center;
     align-items: center;
 }*/
-.carousel-container{
+.carousel-container {
     max-width: 500px;
     margin: auto;
     text-align: center;
     align-items: center;
 }
 
-.crossover{
+.crossover {
     max-width: 1000px !important;
 }
 /*.page-header{
     text-align: center;
 }*/
-.carousel-caption{
-    background: var(--secondary-500) !important; 
+.carousel-caption {
+    background: var(--secondary-500) !important;
     color: var(--primary-100) !important;
     opacity: 0.7;
 }
 
-.carousel-caption:hover{
-    opacity: 1;
-}
+    .carousel-caption:hover {
+        opacity: 1;
+    }
 
 
-  /*.imageBanner {
+/*.imageBanner {
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
     width: 100% !important;  
   }*/
 
-  /*img {
+/*img {
     width: auto;
     height: auto;
     object-fit: contain;
   }*/
-    /* Three image containers (use 25% for four, and 50% for two, etc) */
+/* Three image containers (use 25% for four, and 50% for two, etc) */
 
-    
+
 
 .about-us {
     text-align: center;
@@ -55,30 +55,36 @@
     color: #fff;
     box-sizing: inherit !important;
 }
+
 ul.social-icons {
     margin-top: 10px;
 }
+
 .social-icons li {
     vertical-align: top;
     display: inline;
 }
+
 .social-icons a {
     color: #fff;
     text-decoration: none;
 }
-#facebookNav{
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
+
+#facebookNav {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
     transition: .5s;
     background-color: var(--secondary-500);
 }
-#facebookNav:hover {
-    background-color: #3d5b99;
-}
-#tumblrNav{
+
+    #facebookNav:hover {
+        background-color: #3d5b99;
+    }
+
+#tumblrNav {
     padding: 10px 14px;
     -o-transition: .5s;
     -ms-transition: .5s;
@@ -91,42 +97,49 @@ ul.social-icons {
     #tumblrNav:hover {
         background-color: #3d5b99;
     }
+
 #twitterNav {
-    padding:10px 12px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
+    padding: 10px 12px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
     transition: .5s;
     background-color: var(--secondary-500);
 }
-#twitterNav:hover {
-    background-color: #00aced;
-}
-#instagramNav{
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
+
+    #twitterNav:hover {
+        background-color: #00aced;
+    }
+
+#instagramNav {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
     transition: .5s;
     background-color: var(--secondary-500);
 }
-#instagramNav:hover {
-    background-color: #E1306C;
-}
+
+    #instagramNav:hover {
+        background-color: #E1306C;
+    }
+
 #youtubeNav {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
     transition: .5s;
     background-color: var(--secondary-500);
 }
-#youtubeNav:hover {
-    background-color: #e64a41;
-}
+
+    #youtubeNav:hover {
+        background-color: #e64a41;
+    }
+
 #tiktokNav {
     padding: 10px 14px;
     -o-transition: .5s;
@@ -142,21 +155,33 @@ ul.social-icons {
     }
 
 *, ::after, ::before {
-    box-sizing: unset !important; 
+    box-sizing: unset !important;
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
+    0% {
+        background-position: 0% 51%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 51%
+    }
 }
 
 @keyframes AnimationName {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
+    0% {
+        background-position: 0% 51%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 51%
+    }
 }
-
-
-
-  
