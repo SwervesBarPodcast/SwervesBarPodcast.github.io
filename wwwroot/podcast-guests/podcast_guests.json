@@ -163,5 +163,28 @@
       { "Website": "https://www.davidkaye.com/" },
       { "Youtube": "https://www.youtube.com/channel/UCYzDZjxOZ4VTF6qFk2xK7Uw" }
     ]
+  },
+  {
+    "guestId": 16,
+    "name": "Lily Flowerdrop",
+    "episode": "https://youtu.be/AUXz2OjI7lQ?si=6LwbI0ua9fZmhxm7",
+    "description": "Let's get to know some local artist! In this months Q&A we get to interview the wonderful Lily Flowerdrop! Tune in and learn the secrets to making lovely and amazing art!",
+    "Image": "/images/thumbnails/LilyFlower.png",
+    "links": [
+      { "Instagram": "https://www.instagram.com/lily_flowerdrop/" },
+      { "Twitter": "https://twitter.com/LFlowerdrop" }
+    ]
+  },
+  {
+    "guestId": 17,
+    "name": "Ryan Miller",
+    "episode": "https://youtu.be/uUcpmJbtzkw?si=l5P8KOI7WYjPyNaC",
+    "description": "We get the pleasure of having the talented Ryan Miller on the show! Come join us and meet our new friend who has amazing skills in water colors and making giant monsters!",
+    "Image": "/images/thumbnails/TGping.png",
+    "links": [
+      { "Instagram": "https://www.instagram.com/tg_ping/" },
+      { "Twitter": "https://twitter.com/TGping_" },
+      { "Website": "https://www.deviantart.com/tgping" }
+    ]
   }
 ]
