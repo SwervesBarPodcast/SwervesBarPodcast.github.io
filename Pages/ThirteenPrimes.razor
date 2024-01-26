@@ -1,0 +1,113 @@
+﻿@page "/ThirteenPrimes"
+@inject HttpClient Http
+@inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
+
+<style>
+    h1.page-header {
+        font-size: 300%;
+        text-align: center;
+    }
+
+    .phase {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .row {
+        margin-right: 10%;
+        margin-left: 10%;
+        max-width: 90%;
+        font-size: x-large;
+    }
+
+    img {
+        width: 500px;
+        height: 500px;
+        max-width: 90%;
+        max-height: 90%;
+        object-fit: contain;
+        margin-top: 5%;
+        margin-left: auto;
+        background-color: lightblue;
+    }
+
+    .right {
+        padding-top: 3%;
+    }
+
+</style>
+
+<head>
+    <title>13 Primes : Rules</title>
+</head>
+<body>
+    <h1>Game Rules</h1>
+    
+    <h2>Introduction & Details</h2>
+    <p>First, thank you soo much! Now in each deck there are the following cards</p>
+    <ul>
+        <li>6 Red Autobot cards (1-6)</li>
+        <li>6 Purple Decepticon cards (1-6)</li>
+        <li>6 Green Maximal cards (1-6)</li>
+        <li>6 Blue Predacon cards (1-6)</li>
+        <li>26 Prime cards (2 sets of 1-13)</li>
+    </ul>
+
+    <h2>Objective</h2>
+    <p>
+            The goal is to get your cards to add up to 13 or have a higher number than the opponent without going over 13.
+        During each round each player Starts by flipping 1 Prime card from the pile and reveal it, then draw 2 Basic cards.
+        Prime cards must always be visible to all players. Players play in rounds and will hold their cards until all players are ready to show their hand.
+    </p>
+    <p>
+            When all cards are shown, whoever is closest to 13 without going over, wins the round and earns 2 game points. The deck is then reshuffled and a new round begins.
+        The game ends when someone reaches 13 or more game points. If both players are tied with Game Points, they will continue to the next round until one of them ends a round with more Game Points.
+        Check the section "During Your Turn" to learn more about how each round is played.
+    </p>
+
+    <h2>Setup</h2>
+    <p>To set up the game, follow these steps:</p>
+    <ol>
+        <li>Shuffle all Basic Cards into one pile for each player to draw from</li>
+        <li>Shuffle all Prime Cards into one pile for each player to draw from</li>
+        <li>Each Player draws from the Prime Card pile and reveals it, if a 13 is not revealed, then all players draw 2 cards from the Basic Card pile.</li>
+    </ol>
+
+    <h2>During Your Turn Each Round</h2>
+    <p>During each new round, the player that had the lowest total from the previous round goes first. If this is the first round then, the oldest player goes first.</p> <!-- Describe the basic gameplay of your card game -->
+    <p>Follow these steps after the Setup, see the section above. Once you have chosen and performed one of these options you pass your turn to the next player. 
+        You may choose the same option again once it is your turn once more, if that option is avaible to you.
+        Once you have locked in your hand, your turn is skipped until all players have locked in their hands as well after which all cards are revealed and totaled.
+        </p>
+    
+    <ul>
+        <li>You may discard your Prime Card.</li>
+        <li>You may discard a Prime Card and 1 of your Basic Cards from your hand and draw 1 additional Basic Card.</li>
+        <li>If you have no Prime card, you may draw 1 additional Basic Card.</li>
+        <li>Lock in your hand. (If chosen you can no longer choose any of the other options when it is your turn, until the next round)</li>
+    </ul>
+
+    <p>Once all players hands are locked in, all players reveal their hands and sum up the total of their Prime Card and Basic Card(s). See Winning for more details.</p>
+
+    <h2>Winning</h2>
+    <p>The player with the highest sum total of their Prime Card and Basic Card(s) without going over 13 wins the round and earns 2 Game Points. 
+        If a player revealed a Prime Card with a value of 13 at the begining of the game, the round ends immediately and that player earns 3 Game Points.
+        In the case of a tie for highest value without going over 13 see the following tie-breakers.</p>
+        <ul>
+            <li>The player with the least amount of cards wins and recieves 2 Game Points.</li>
+            <li>The player with the least amount of cards and the higher value Prime Card wins and recieves 2 Game Points.</li>
+            <li>If 2 players revealed a Prime Card valued at 13, then the player who has the higher sum total of Basic Cards wins and recieves 1 Game Points.</li>
+            <li>If 2 players revealed a Prime Card valued at 13 and both players sum total of Basic Cards are equal, both players win and recieves 1 Game Points.</li>
+            <li>If at the end of a round 2 players are tied with having 13 or more Game Points, another round will be started until one of those players ends a round with more Game Points.</li>
+        </ul>
+
+
+    <footer>
+        <p>Have fun playing the Card Game!</p>
+    </footer>
+
+</body>
+@code {
+
+
+}
