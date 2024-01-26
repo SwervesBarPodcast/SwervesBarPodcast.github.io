@@ -186,5 +186,16 @@
       { "Twitter": "https://twitter.com/TGping_" },
       { "Website": "https://www.deviantart.com/tgping" }
     ]
+  },
+  {
+    "guestId": 18,
+    "name": "Amber Jones",
+    "episode": "https://youtu.be/Z_3bJFZHXO8?si=nsT3BoHCoFXc3r_S",
+    "description": "Let's get to know a fellow content creator! In this months Q&A we get to interview the wonderful Amber Jones! Tune in and learn a little about her and her passion for the world of voice acting.",
+    "Image": "/images/thumbnails/Amber.png",
+    "links": [
+      { "Twitter": "https://twitter.com/amberleahhx" },
+      { "Youtube": "https://www.youtube.com/@AmberTheFangirl/featured" }
+    ]
   }
 ]
