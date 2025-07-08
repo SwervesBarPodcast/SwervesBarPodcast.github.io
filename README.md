@@ -1,0 +1,13 @@
+# TO DO
+- [x] Adjust page background and content backgrounds (rows) to have more contrast (lighter color for content background?)
+- [x] Move neon text affect to it's own CSS class (it's currently under "maintitle" class)
+- [ ] Move "listen now" buttons to be centered under text combo description
+  - [ ] Maybe move header to be centered over img and description?
+- [x] Add neon to inner blocks headers
+- [x] Make neon borders bigger / more obvious (too subtle)
+- [x] Add padding between maintitle on each page (that's not the index) and the navbar
+- [x] Make navbar text bigger
+- [x] Change navbar text color
+- [x] Reduce space between navbar links
+- [ ] Add dropdown to navbar?
+- [ ] Maybe change the maintitle header on the shows page to stay on "podcasts", and then change the "about" to the podcast title?

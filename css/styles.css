@@ -1,0 +1,254 @@
+/* FONT RULES */
+@font-face {
+    font-family: "OmegaForce-Laser";
+    src: url("../font/omegaforce/omegaforcelaser1_3.ttf");
+}
+@font-face {
+    font-family: "OmegaForce-Laser-Ital";
+    src: url("../font/omegaforce/omegaforcelaserital1_3.ttf");
+}
+
+@font-face{
+    font-family: "OmegaForce-Halftone";
+    src: url("../font/omegaforce/omegaforcehalf1_3.ttf");
+}
+@font-face{
+    font-family: "OmegaForce-Halftone-Ital";
+    src: url("../font/omegaforce/omegaforcehalfital1_3.ttf");
+}
+@font-face{
+    font-family: "Lazer84";
+    src: url("../font/summer85/summer85.ttf")
+}
+
+@keyframes pulsate {
+    100% {
+      /* Larger blur radius */
+      box-shadow: 0 0 .5rem #FFFFFF,
+                  0 0 .5rem #FFFFFF,
+                  0 0 4rem #FF00D0;
+    }
+    0% {
+      /* Smaller blur radius */
+      box-shadow: 0 0 .2rem #FFFFFF,
+                  0 0 .2rem #FFFFFF,
+                  0 0 2rem #FF00D0;
+    }
+}
+
+.nova-flat-regular {
+    font-family: "Nova Flat", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.orbitron {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tilt-neon{
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "XROT" 0,
+      "YROT" 0;
+  }
+
+body{
+    background-color: #0E0E35;
+    font-family: "Nova Flat";
+}
+
+/* This was for the line flanking either side of the header. It doesn't work quite right.
+.section-header:before,
+.section-header:after {
+    background-color: #FFFFFF;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+}
+.section-header:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.section-header:after {
+    left: 0.5em;
+    margin-right: -50%;
+} */
+
+footer {
+    text-align: center;
+}
+
+.navbar {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+.nav-item {
+    font-size: 1.5em;
+}
+
+.navbar>a {
+    color: #FFFFFF;
+}
+
+.navbar>a:hover {
+    color:#FFFFFF;
+    text-shadow:
+        0 0 7px #FFFFFF,
+        0 0 10px #FFFFFF,
+        0 0 21px #FFFFFF;
+
+}
+
+.col {
+    background-color: #3f1863;
+    color: #FFFFFF;
+    border-radius: 1rem;
+    padding: 1em;
+    box-shadow: 0 0 .5rem #FFFFFF80,
+                0 0 .5rem #FFFFFF80,
+                0 0 4rem #FFFFFF80,
+                0 0 1.6rem #FFFFFF80,
+                0 0 5.6rem #FF00D080;
+    animation: pulsate 5s ease-in-out infinite alternate;
+}
+
+.navbar-brand{
+    font-family: "OmegaForce-Laser-Ital";
+}
+
+.nav-item{
+    font-family: "Lazer84";
+}
+
+.btn,
+.btn-primary-outline {
+    color: #00FFEA !important;
+    border-color: #00FFEA !important;
+    box-shadow: 0 0 .2rem #FFFFFF, 
+                0 0 .2rem #FFFFFF, 
+                0 0 2rem #00FFEA, 
+                0 0 0.8rem #00FFEA, 
+                0 0 2.8rem #00FFEA, 
+                inset 0 0 1.3rem #00FFE6
+                !important;
+}
+
+.btn:hover,
+.btn-primary-outline:hover, 
+.btn-primary-outline:focus, 
+.btn-primary-outline:active, 
+.btn-primary-outline.active, 
+.open>.dropdown-toggle.btn-primary-outline {
+    color: #FFFFFF !important;
+    background-color: #00EAFF !important;
+}
+
+
+.kern {
+    letter-spacing: -0.2rem;
+  }
+
+.row-outer {
+    margin: 4em;
+}
+.row-inner {
+    padding: 2rem;
+}
+
+.title {
+    padding: 10em;
+    text-align:center;
+    background-image: url("../img/Season4Logo.png");
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+img {
+   width: 400px;
+   height: 200px;
+}
+
+.section-header {
+    font-family:"Tilt Neon";
+    text-align:center;
+}
+
+.maintitle {
+  text-align: center;
+  font-family: "OmegaForce-Laser-Ital";
+  font-size: 4em;
+  color:#FFFFFF;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: "Lazer84";
+    position: relative;
+    left: 1.8em;
+    top: -1em;
+    color: #FF00D0;
+    font-size: 3em;
+
+}
+
+.neonText-big {
+    text-shadow:
+    0 0 1px #FFFFFF80,
+    0 0 2px #FFFFFF80,
+    0 0 4px #FFFFFF80,
+    0 0 8px #FF00D0,
+    0 0 16px #FF00D0,
+    0 0 32px #FF00D0,
+    0 0 64px #FF00D0,
+    0 0 128px #FF00D0;
+}
+
+.neonText-small {
+    text-shadow:
+    0 0 7px #FFFFFF,
+    0 0 10px #FFFFFF,
+    0 0 21px #FFFFFF;
+}
+
+.desc {
+    position: relative;
+    top:-2em;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align:center;
+}
+
+.subcenter {
+    text-align: center;
+}
+
+.thumbnail {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
